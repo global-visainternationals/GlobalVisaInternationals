@@ -1,4 +1,4 @@
-// File: C:\Users\opera\Desktop\GitHub\globalvisainternationals\src\app\blog\[slug]\page.jsx
+// File: C:\Users\opera\Desktop\globalvisainternationals\globalvisainternationals\src\app\blog\[slug]\page.jsx
 import * as entry from '../../../../../src/app/blog/[slug]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

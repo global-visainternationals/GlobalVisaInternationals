@@ -1,0 +1,118 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [
+    {
+      "page": "/blog/[slug]",
+      "regex": "^/blog/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/blog/(?<nxtPslug>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/Visa/student-visa/australia",
+      "regex": "^/Visa/student\\-visa/australia(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Visa/student\\-visa/australia(?:/)?$"
+    },
+    {
+      "page": "/Visa/student-visa/canada",
+      "regex": "^/Visa/student\\-visa/canada(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Visa/student\\-visa/canada(?:/)?$"
+    },
+    {
+      "page": "/Visa/student-visa/europe",
+      "regex": "^/Visa/student\\-visa/europe(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Visa/student\\-visa/europe(?:/)?$"
+    },
+    {
+      "page": "/Visa/student-visa/new-zealand",
+      "regex": "^/Visa/student\\-visa/new\\-zealand(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Visa/student\\-visa/new\\-zealand(?:/)?$"
+    },
+    {
+      "page": "/Visa/student-visa/uk",
+      "regex": "^/Visa/student\\-visa/uk(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Visa/student\\-visa/uk(?:/)?$"
+    },
+    {
+      "page": "/Visa/student-visa/usa",
+      "regex": "^/Visa/student\\-visa/usa(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Visa/student\\-visa/usa(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about-us",
+      "regex": "^/about\\-us(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about\\-us(?:/)?$"
+    },
+    {
+      "page": "/blog",
+      "regex": "^/blog(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog(?:/)?$"
+    },
+    {
+      "page": "/contact",
+      "regex": "^/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact(?:/)?$"
+    },
+    {
+      "page": "/our-values",
+      "regex": "^/our\\-values(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/our\\-values(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}

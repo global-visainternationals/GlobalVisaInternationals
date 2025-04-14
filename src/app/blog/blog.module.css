@@ -1,0 +1,149 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 2rem 1rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .gridWrapper {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 2rem;
+  }
+  
+  .blogGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+  
+  .card {
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cardImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .cardBody {
+    padding: 1rem;
+  }
+  
+  .cardTitle {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: #222;
+    line-height: 1.4;
+  }
+  
+  .cardTitle a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.2s;
+  }
+  
+  .cardTitle a:hover {
+    color: #0070f3;
+  }
+  
+  .cardMeta {
+    font-size: 0.75rem;
+    color: #777;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .readMore {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border: 1px solid #333;
+    background: transparent;
+    color: #222;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    border-radius: 4px;
+  }
+  
+  .readMore:hover {
+    background: #f5f5f5;
+  }
+  
+  .sidebar {
+    padding-top: 1rem;
+  }
+  
+  .sidebar h2 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e0e0e0;
+  }
+  
+  .categoryList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+    position: sticky;
+  }
+  
+  .categoryList li {
+    font-size: 0.9rem;
+    padding: 0.5rem 0;
+    color: #2b6cb0;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .categoryList li:hover {
+    color: #1a4d8f;
+  }
+  
+  .pagination {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .pagination button {
+    padding: 0.5rem 1rem;
+    background-color: #f1f1f1;
+    border: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    border-radius: 4px;
+  }
+  
+  .pagination button:hover:not(:disabled) {
+    background-color: #ddd;
+  }
+  
+  .pagination button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+  

@@ -1,0 +1,158 @@
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    padding-top:70px ;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+.USAImage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 15px;
+    padding-top:10px ;
+    margin: 0 auto;
+    height: 300px;
+    width: 850px;
+}
+.USASec {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+.USAData {
+    flex: 1; /* Takes available space */
+    min-width: 60%;
+    max-width: 65%;
+    color: #000000;
+    padding: 10px;
+    gap: 10px;
+    overflow-y: auto; /* Enables scrolling */
+}
+.Title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #00ff00;
+}
+.subTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #1d7e0a;
+}
+
+.formSection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30%; 
+    box-shadow: 0 5px 15px #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 40px;
+    position: sticky;
+    top: 60px; /* Keeps the form at a fixed position */
+    height: fit-content; /* Ensures it doesn’t stretch */
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+}
+
+.form input,
+.form select {
+    width: 90%;
+    border-color: #000;
+    padding: 8px;
+    margin: 6px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+.row{
+    display: flex;
+    gap: 10px;
+}
+
+.buttonSub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+    background-color: #072c26;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+}
+
+.buttonSub:hover {
+    background-color: #00af92;
+}
+.formSection1{
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    width: 30%; 
+    box-shadow: 0 5px 15px #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 40px;
+    position: sticky;
+    top: 60px; /* Keeps the form at a fixed position */
+    height: fit-content; /* Ensures it doesn’t stretch */
+    
+}
+
+@media screen and (max-width: 768px) {
+    .imageContainer {
+        justify-content: center;
+        padding-top: 70px;
+        width: 100%;
+    }
+    .USAImage {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+        border-radius: 10px;
+        height: auto;
+        width: 90%; /* Adjusts image width for smaller screens */
+        max-width: 400px; /* Limits max size */
+    }
+    .USASec {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        max-width: 100%;
+    }
+    .USAData {
+        min-width: 100%;
+        text-align: justify; /* Centers text for better readability */
+        padding: 10px;
+    }
+    .formSection {
+        width: 90%; /* Increases width for mobile */
+        position: relative; /* Prevents overlap */
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+    .formSection1 {
+        display: flex;
+        
+        width: 90%; /* Increases width for mobile */
+        position: relative; /* Prevents overlap */
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+}

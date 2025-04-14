@@ -8,19 +8,37 @@ export default function UK() {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
     "name": "Global Visa Internationals",
-    "url": "https://www.globalvisainternationals.com",
-    "description": "Helping international students apply for UK student visas and choose the best courses and universities in the UK.",
+    "url": "https://www.globalvisa-internationals.com",
+    "logo": "https://www.globalvisa-internationals.com/gvilogo.png", 
+    "description": "Unlock Your UK Adventure! Global Visa Internationals provides expert guidance for your UK tourist visa application. Simplify the process and explore Britain's wonders. Contact us today!",
+    "founder": {
+      "@type": "Organization",
+      "name": "Naveen Kumar J"
+    },
+    "foundingDate": "2016",
     "address": {
       "@type": "PostalAddress",
+      "streetAddress": "MG Road",
       "addressLocality": "Bengaluru",
       "addressRegion": "Karnataka",
+      "postalCode": "560025",
       "addressCountry": "IN"
     },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-7022213466",
+      "contactType": "Customer Support",
+      "areaServed": "IN",
+      "availableLanguage": ["English", "Hindi", "Kannada","Tamil"]
+    },
+    "areaServed": ["IN", "UK", "EU"],
     "sameAs": [
       "https://www.facebook.com/GlobalVisaInternationals",
-      "https://www.instagram.com/GlobalVisaInternationals"
-      // Add other social media links as needed
+      "https://www.instagram.com/globalvisa_internationals/",
+      "https://www.linkedin.com/company/globalvisainternationals"
+      // Add more links if you have Twitter, YouTube, etc.
     ]
+  
   };
     const { executeRecaptcha } = useGoogleReCaptcha();
     const [isSubmitting, setIsSubmitting] = useState(false);
@@ -86,7 +104,7 @@ export default function UK() {
      return(      
            <>    
             <head>
-        <title> Unlock Your Canadian Education: Your Guide to a Canada Student Visa| Global visa internationals</title>
+        <title> Unlock Your British Adventure | Global visa internationals</title>
         <meta name="description" content="Your comprehensive guide to UK student visas, top-ranked universities, popular courses, costs, and the application process. Unlock your UK education dream with Global Visa Internationals." />
         <meta name="keywords" content="UK student visa, study in UK, UK universities, top UK universities, courses in UK, MBA UK, cost of studying UK, UK student visa requirements, UK visa application, international students UK, student life UK, UK education system, Tier 4 visa UK, UK scholarships, post study work UK" />
         <meta name="robots" content="index, follow" />

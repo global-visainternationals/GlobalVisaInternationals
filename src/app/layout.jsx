@@ -5,6 +5,8 @@ import NavBar from "@/Components/NavBar";
 import Footer from "@/Components/Footer";
 
 export default function RootLayout({ children }) {
+  const adsenseClient = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID;
+
   return (
     <html lang="en">
       <head>
@@ -27,6 +29,27 @@ export default function RootLayout({ children }) {
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#ffffff" />
+
+        {/* Google AdSense script */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+          crossOrigin="anonymous"
+        ></script>
+
+        {/* Initialize Google AdSense if client ID is available */}
+        {adsenseClient && (
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                (adsbygoogle = window.adsbygoogle || []).push({
+                  google_ad_client: "${adsenseClient}",
+                  enable_page_level_ads: true
+                });
+              `,
+            }}
+          />
+        )}
       </head>
 
       <body>

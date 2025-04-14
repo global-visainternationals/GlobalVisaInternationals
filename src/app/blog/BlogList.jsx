@@ -42,13 +42,16 @@ export default function BlogList({ posts }) {
             >
               <Link href={`/blog/${post.slug}`}>
                 {post.image && (
+                 <div style={{ width: '100%', position: 'relative', aspectRatio: '16 / 9' }}>
                   <Image
                     src={post.image}
                     alt={post.title}
-                    width={400}
-                    height={250}
-                    style={{ objectFit: 'cover', borderRadius: '10px' }}
+                    fill
+                    style={{ objectFit: 'contain', borderRadius: '10px' }}
                   />
+                </div>
+
+
                 )}
               </Link>
 

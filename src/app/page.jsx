@@ -244,10 +244,9 @@ const visaTypes = [
         <link rel="canonical" href="https://www.globalvisa-internationals.com/" />
 
       
-        {/* Favicon */}
-        <link rel="icon" type="image/png" href="/Logo.png" />
+        
 
-    {/* Open Graph (Facebook, LinkedIn) */}
+  {/* Open Graph (Facebook, LinkedIn) */}
   <meta property="og:title" content="Immigration Consultants Bangalore | Visa Services | Global Visa" />
   <meta property="og:description" content="Expert immigration consultants in Bangalore. Fast visa services for Canada PR, USA, Schengen & more. Get your visa approved quickly with Global Visa." />
   <meta property="og:image" content="https://www.globalvisa-internationals.com/gvilogo.png" />
@@ -255,10 +254,11 @@ const visaTypes = [
   <meta property="og:type" content="website" />
 
 
-          {/* Twitter Card */}
+  {/* Twitter Card */}
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Global Visa Internationals | Visa & Immigration Experts" />
   <meta name="twitter:description" content="Get expert visa solutions for work, study, and permanent residency. Trusted by 55,000+ clients." />
+
 
 
          {/* Google Fonts */}

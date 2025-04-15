@@ -223,13 +223,15 @@ const visaTypes = [
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         {/* Title & Description */}
-        <title>Best Immigration Services in Bangalore | Global Visa Internationals</title>
-        <meta name="description" content="Looking for expert immigration consultants in Bangalore? Global Visa Internationals offers PR, Work, and Study visa services by certified professionals." />
+        <title>Immigration Consultants Bangalore | Visa Services | Global Visa</title>
+        <meta name="description" content="Expert immigration consultants in Bangalore. Fast visa services for Canada PR, USA, Schengen & more. Get your visa approved quickly with Global Visa." />
+          {/* Favicon */}
+  <link rel="icon" type="image/png" href="/gvilogo.png" />
 
         {/* Keywords */}
         <meta
           name="keywords"
-          content="Top Immigration Consultancy Services In Bangalore, Top Immigration Consultancy Bangalore, Best Immigration Consultants in Bangalore, Best Visa and Immigration Consultants In Bangalore, Fast Visa Services, Canada PR, USA Visa, Schengen Visa, Study Abroad, Permanent Residency, Visa Assistance, Fast Visa Approval, Immigration Lawyer, Travel Visa, Work Abroad"
+          content="Top Immigration Consultancy Services In Bangalore,Visa global website,visa global customer services, visa global france, global visa vfs, global visa online, visa internationals official website,global visa website,global visa customer services, visa global france, global visa vfs,global visa online, visa internationals,visa requirements for internationals travel,international visa for travel,work visa consultent in bangalore,visa consultents near bangalore karnataka,visa consultents near yelahanka bangalore, Top Immigration Consultancy Bangalore, Best Immigration Consultants in Bangalore, Best Visa and Immigration Consultants In Bangalore, Fast Visa Services, Canada PR, USA Visa, Schengen Visa, Study Abroad, Permanent Residency, Visa Assistance, Fast Visa Approval, Immigration Lawyer, Travel Visa, Work Abroad"
         />
 
         {/* Author & Robots */}
@@ -239,31 +241,33 @@ const visaTypes = [
         <meta name="bingbot" content="index, follow" />
 
         {/* Canonical URL */}
-        <link rel="canonical" href="https://www.globalvisainternationals.com/" />
+        <link rel="canonical" href="https://www.globalvisa-internationals.com/" />
 
-        {/* Alternate Languages */}
-        <link rel="alternate" hreflang="en" href="https://globalvisainternationals.com/en/" />
-        <link rel="alternate" hreflang="es" href="https://globalvisainternationals.com/es/" />
-
+      
         {/* Favicon */}
         <link rel="icon" type="image/png" href="/Logo.png" />
 
-        {/* Open Graph (Facebook, LinkedIn) */}
-        <meta property="og:title" content="Best Immigration Services in Bangalore | Global Visa Internationals" />
-        <meta property="og:description" content="Best visa & immigration services for students, professionals, and families. Expert consultants for PR, Work, and Study visas." />
-        <meta property="og:image" content="https://raw.githubusercontent.com/global-visainternationals/Global-Visa-Internationals/main/Logo.png" />
-        <meta property="og:url" content="https://globalvisainternationals.com" />
-        <meta property="og:type" content="website" />
+    {/* Open Graph (Facebook, LinkedIn) */}
+  <meta property="og:title" content="Immigration Consultants Bangalore | Visa Services | Global Visa" />
+  <meta property="og:description" content="Expert immigration consultants in Bangalore. Fast visa services for Canada PR, USA, Schengen & more. Get your visa approved quickly with Global Visa." />
+  <meta property="og:image" content="https://www.globalvisa-internationals.com/gvilogo.png" />
+  <meta property="og:url" content="https://globalvisa-internationals.com" />
+  <meta property="og:type" content="website" />
 
-        {/* Twitter Card */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Global Visa Internationals | Visa & Immigration Experts" />
-        <meta name="twitter:description" content="Get expert visa solutions for work, study, and permanent residency. Trusted by 55,000+ clients." />
 
-        {/* External CSS */}
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
-        <link rel="stylesheet" href="/assets/css/styles.css" />
-        <link rel="stylesheet" href="/styles.css" />
+          {/* Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Global Visa Internationals | Visa & Immigration Experts" />
+  <meta name="twitter:description" content="Get expert visa solutions for work, study, and permanent residency. Trusted by 55,000+ clients." />
+
+
+         {/* Google Fonts */}
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM8d7xj1z5l5e5c5e5c5e5c5e5c5e5c5e5c5e5c5e" crossOrigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM8d7xj1z5l5e5c5e5c5e5c5e5c5e5c5e5c5e5c5e" crossOrigin="anonymous" />
+
 
         {/* Google Fonts */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -273,35 +277,100 @@ const visaTypes = [
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM8d7xj1z5l5e5c5e5c5e5c5e5c5e5c5e5c5e" crossOrigin="anonymous" />
 
         {/* Structured Data - Local Business */}
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `
-          {
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "name": "Global Visa Internationals",
-            "image": "https://globalvisainternationals.com/assets/images/logo.png",
-            "url": "https://globalvisainternationals.com",
-            "logo": "https://globalvisainternationals.com/assets/images/logo.png",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "GF-9, Business Point, Brigade Road, Bangalore",
-              "addressLocality": "Bangalore",
-              "postalCode": "560025",
-              "addressCountry": "IN"
-            },
-            "telephone": "+91 7022213466",
-            "priceRange": "$$$",
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": 12.9674808,
-              "longitude": 77.606117
-            },
-            "sameAs": [
-              "https://facebook.com/globalvisa.globalvisa",
-              "https://www.instagram.com/globalvisa_internationals/",
-              "https://x.com/GLOBALVISA1505"
-            ]
-          }
-        ` }} />
+{/* Structured Data - Local Business (Updated) */}
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Global Visa Internationals",
+      "image": "https://www.globalvisa-internationals.com/gvilogo.png",
+      "url": "https://www.globalvisa-internationals.com/",
+      "telephone": "+917022213466",
+      "priceRange": "$$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "GF-9, Business Point, Brigade Road",
+        "addressLocality": "Bangalore",
+        "addressRegion": "Karnataka",
+        "postalCode": "560025",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 12.9674808,
+        "longitude": 77.606117
+      },
+      "sameAs": [
+        "https://www.facebook.com/globalvisa.globalvisa",
+        "https://www.instagram.com/globalvisa_internationals/",
+        "https://x.com/GLOBALVISA1505"
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "10:00",
+          "closes": "14:00"
+        }
+      ],
+      "potentialAction": {
+        "@type": "ReserveAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.globalvisa-internationals.com/contact"
+        },
+        "resultDescription": "Book a free consultation"
+      }
+        {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Canada Permanent Residency Visa Assistance", // Specific service name
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Global Visa Internationals"
+  },
+  "areaServed": {
+    "@type": "State",
+    "name": "Karnataka"
+  },
+  "description": "Expert assistance with your Canada PR visa application. We guide you through the process and ensure a smooth experience.",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "INR", // or your currency
+    "price": "Variable", // or a set price
+    "url": "https://www.globalvisa-internationals.com/Visa/permanent-residency-visa/canada" // Link to the service page
+  }
+},
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the requirements for a Canada PR visa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The requirements for a Canada PR visa vary depending on the program..."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take to get a student visa for Australia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The processing time for an Australian student visa can range from..."
+      }
+    }
+        
+    }
+  ` }} />
+  
       </Head>
 
 

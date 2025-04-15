@@ -1,0 +1,289 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/Visa/student-visa/australia/australia.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************/
+.australia_imageContainer__fb23K{
+    display: flex;
+    justify-content: center;
+    padding-top:70px ;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+.australia_AustraliaImage__eM2jJ{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 15px;
+    padding-top:10px ;
+    margin: 0 auto;
+    height: 300px;
+    width: 850px;
+}
+.australia_AustraliaSec__uuR0H {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.australia_AustraliaData__lkIag {
+    flex: 1 1; /* Takes available space */
+    min-width: 60%;
+    max-width: 65%;
+    color: #000000;
+    padding: 10px;
+    gap: 10px;
+    overflow-y: auto; /* Enables scrolling */
+}
+.australia_Title__s7AtH{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #1d7e0a;
+}
+.australia_subTitle__gCmzw{
+    display: flex;
+    text-align: left;
+    color: #1d7e0a;
+}
+.australia_formSection1__XoO3g{
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 5px 10px #000;
+    border-radius: 10px;
+    padding: 15px;
+    height: -moz-fit-content;
+    height: fit-content;
+    
+}
+
+.australia_formSection__ZGCNY {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px; 
+    box-shadow: 0 5px 10px #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 40px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 60px; /* Keeps the form at a fixed position */
+    height: -moz-fit-content;
+    height: fit-content; /* Ensures it doesn’t stretch */
+}
+
+.australia_form__gAPEd {
+    display: flex;
+    flex-direction: column;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+}
+.australia_row___zvc5{
+  display: flex;
+  justify-content: center;
+ 
+
+}
+.australia_row___zvc5 div{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  padding-bottom: 10px;
+}
+.australia_input__6yuhB, .australia_select___ogNt {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: #a6e988;;
+  font-size: 16px;
+  margin: 5px;
+  box-shadow: 0 4px 8px #282828;
+  text-align: left;
+}
+
+
+.australia_submittingBtn__zdVJg {
+  display: block;
+  max-width: 250px;
+  background-color: #277a00;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.3s ease-in-out;
+  margin: 10px auto;
+}
+
+.australia_submittingBtn__zdVJg:hover {
+  background-color: #85da5d
+}
+
+.australia_popupOverlay__ertnB {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.4); /* dim background */
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 9999;
+}
+
+.australia_popupContent__rYj7d {
+background: #28a745; /* Bootstrap green */
+color: white;
+padding: 1.5rem 2.5rem;
+border-radius: 12px;
+box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+text-align: center;
+max-width: 420px;
+width: 90%;
+animation: australia_fadeIn__N8OmR 0.3s ease-in-out;
+}
+
+.australia_popupContent__rYj7d p {
+font-size: 1.2rem;
+margin-bottom: 1rem;
+font-weight: 600;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 0.6rem;
+}
+
+.australia_popupContent__rYj7d button {
+background: white;
+color: #28a745;
+border: 2px solid #28a745;
+border-radius: 6px;
+padding: 0.5rem 1.2rem;
+font-weight: bold;
+cursor: pointer;
+transition: background 0.2s ease;
+}
+
+.australia_popupContent__rYj7d button:hover {
+background: #e8f5e9;
+}
+
+@keyframes australia_fadeIn__N8OmR {
+from {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+to {
+  opacity: 1;
+  transform: translateY(0);
+}
+}
+.australia_container__sHj5O {
+    padding: 1rem;
+    background-color: #f9f9f9;
+    color: #333;
+    max-width: 960px;
+    margin: auto;
+  }
+  
+  .australia_heading__mq0Pl {
+    color: #1d7e0a;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .australia_intro__ald8H {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .australia_table__ac3rF {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+    
+  }
+  
+  .australia_table__ac3rF th,
+  .australia_table__ac3rF td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: left;
+    vertical-align: top;
+  }
+  
+  .australia_table__ac3rF th {
+    background-color: #1d7e0a;
+    color: #fff;
+  }
+  
+  .australia_table__ac3rF tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .australia_note__4_0_Q {
+    font-size: 0.95rem;
+    color: #555;
+    background: #eef3f7;
+    padding: 1rem;
+    border-left: 4px solid #1d7e0a;
+    max-width: 800px;
+    margin: auto;
+  }
+
+@media screen and (max-width: 768px) {
+    .australia_imageContainer__fb23K {
+        justify-content: center;
+        padding-top: 70px;
+        width: 100%;
+    }
+    .australia_AustraliaImage__eM2jJ {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+        border-radius: 10px;
+        height: auto;
+        width: 90%; /* Adjusts image width for smaller screens */
+        max-width: 400px; /* Limits max size */
+    }
+    .australia_AustraliaSec__uuR0H {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        max-width: 100%;
+    }
+    .australia_AustraliaData__lkIag {
+        min-width: 100%;
+        text-align: justify; /* Centers text for better readability */
+        padding: 10px; /* Centers text for better readability */
+        
+    }
+
+    .australia_formSection__ZGCNY {
+        width: 90%; /* Increases width for mobile */
+        position: relative; /* Prevents overlap */
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+    .australia_formSection1__XoO3g {
+        display: flex;
+        position: relative; /* Prevents overlap */
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+    
+}
+

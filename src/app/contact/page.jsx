@@ -2,7 +2,7 @@
 
 import Head from 'next/head';
 import styles from './page.module.css';
-
+import Resend from 'resend';
 import React,  { useState } from 'react';
 
 import { useGoogleReCaptcha } from "react-google-recaptcha-v3";

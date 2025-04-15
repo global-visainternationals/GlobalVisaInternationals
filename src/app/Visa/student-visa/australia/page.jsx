@@ -67,20 +67,274 @@ export default function Australia(){
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
-    "name": "Global Visa Internationals",
-    "url": "https://www.globalvisainternationals.com",
-    "description": "Helping international students apply for Australian student visas and choose the best courses and universities in Australia.",
+    "name": "Global Visa Internationals - Australian Student Visa Services",
+    "description": "Unlock your Australian education dream with Global Visa Internationals. Expert guidance on student visas, universities, scholarships, and career opportunities in Australia.",
+    "url": "https://www.globalvisa-internationals.com/Visa/student-visa/australia",
+    "logo": "https://www.globalvisa-internationals.com/gvilogo.png", // Replace with your actual logo URL
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Bengaluru",
+      "streetAddress": "GF-9, Business Point, Brigade Road", // Replace with your actual address
+      "addressLocality": "Bangalore",
       "addressRegion": "Karnataka",
+      "postalCode": "560025",
       "addressCountry": "IN"
     },
+    "telephone": "+917022213466", // Replace with your actual phone number
     "sameAs": [
-      "https://www.facebook.com/GlobalVisaInternationals",
-      "https://www.instagram.com/GlobalVisaInternationals"
-      // Add other social media links as needed
-    ]
+      "https://www.facebook.com/globalvisa.globalvisa",
+      "https://www.instagram.com/globalvisa_internationals/",
+      "https://x.com/GLOBALVISA1505",
+      // Add other social media URLs
+    ],
+    "areaServed": {
+      "@type": "Country",
+      "name": "Australia"
+    },
+    "serviceType": "Australian Student Visa Assistance",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "INR", // or your currency
+      "price": "Variable", // or a price range
+      "url": "https://www.globalvisa-internationals.com/Visa/student-visa/australia",
+      "description": "Expert assistance with Australian student visa applications, university selection, scholarship guidance, and post-study opportunities."
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Australian Student Visa Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "item": {
+            "@type": "Service",
+            "name": "Student Visa Application Assistance",
+            "description": "Guidance and support with the Australian Student Visa (Subclass 500) application process.",
+            "url": "https://www.globalvisa-internationals.com/Visa/student-visa/australia"
+          }
+        },
+        {
+          "@type": "Offer",
+          "item": {
+            "@type": "Service",
+            "name": "University and Course Selection",
+            "description": "Assistance in choosing the right Australian university and course based on your academic and career goals.",
+            "url": "https://www.globalvisa-internationals.com/Visa/student-visa/australia"
+          }
+        },
+        {
+          "@type": "Offer",
+          "item": {
+            "@type": "Service",
+            "name": "Scholarship Guidance",
+            "description": "Information and assistance with applying for scholarships to study in Australia.",
+            "url": "https://www.globalvisa-internationals.com/Visa/student-visa/australia"
+          }
+        },
+        {
+          "@type": "Offer",
+          "item": {
+            "@type": "Service",
+            "name": "Post-Study Work Visa Guidance",
+            "description": "Advice on post-study work visa options and pathways to permanent residency in Australia.",
+            "url": "https://www.globalvisa-internationals.com/Visa/student-visa/australia"
+          }
+        },
+        {
+          "@type": "Offer",
+          "item": {
+            "@type": "Service",
+            "name": "GTE Statement Assistance",
+            "description": "Help with preparing a strong Genuine Temporary Entrant (GTE) statement.",
+            "url": "https://www.globalvisa-internationals.com/Visa/student-visa/australia"
+          }
+        }
+      ]
+    },
+    "potentialAction": {
+      "@type": "ContactAction",
+      "name": "Contact Us for Australian Student Visa Assistance",
+      "target": "https://www.globalvisa-internationals.com/contact"
+    },
+    "mainEntity": {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the duration of the Australian student visa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The duration of the student visa typically aligns with the length of your course of study, plus an additional period for travel. Generally, it can range from a few months to several years, depending on your program."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I work while on a student visa in Australia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, student visa holders are generally allowed to work part-time while studying. However, there are specific work hour restrictions during the semester and holidays."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the duration of the Australian student visa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The duration of the student visa typically aligns with the length of your course of study, plus an additional period for travel. Generally, it can range from a few months to several years, depending on your program."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I work while on a student visa in Australia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, student visa holders are generally allowed to work part-time while studying. However, there are specific work hour restrictions during the semester and holidays."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I bring my family with me on a student visa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, you may be able to include eligible family members in your student visa application. They may also be granted work rights while you study."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if my visa application is refused?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If your visa application is refused, you may have the option to appeal the decision or reapply. The specific course of action will depend on the reasons for the refusal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to process a student visa application?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Processing times can vary based on several factors, including the complexity of your application and the volume of applications being processed. It's advisable to apply well in advance of your intended course start date."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I change my course or education provider while on a student visa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, you can change your course or education provider, but you must comply with the conditions of your visa and notify the Department of Home Affairs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need Overseas Student Health Cover (OSHC)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, most student visa holders are required to have Overseas Student Health Cover (OSHC) for the duration of their stay in Australia. This health insurance covers medical expenses and hospital treatment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I apply for permanent residency after studying in Australia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, depending on your qualifications and other factors, you may be eligible to apply for a post-study work visa or other pathways to permanent residency after completing your studies."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the cost of the student visa application?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The visa application fee varies based on the type of visa and your circumstances. It's essential to check the current fees on the Department of Home Affairs website."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can Global Visa Internationals assist me with my student visa application?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Global Visa Internationals offers expert guidance and support throughout the entire student visa application process. Our team will help you with document preparation, application submission, and addressing any challenges that may arise."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if I have a gap in my education or work experience?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Having a gap in your education or work experience is not necessarily a barrier to obtaining a student visa. However, you may need to provide a valid explanation and demonstrate your genuine intention to study."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I apply for a student visa if I have previously been refused a visa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, you can apply for a student visa even if you have previously been refused a visa. However, you will need to address the reasons for the previous refusal in your new application."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if I want to study in Australia but am currently outside the country?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can apply for a student visa from outside Australia. You will need to provide the required documentation and meet the visa criteria."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I apply for a student visa if I am over 50 years old?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, there is no upper age limit for applying for a student visa. However, you may need to provide additional documentation to demonstrate your genuine intention to study."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I ensure my student visa application is successful?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "To increase your chances of a successful application, ensure that you meet all the visa requirements, provide accurate and complete documentation, and demonstrate your genuine intention to study in Australia. Seeking professional assistance from Global Visa Internationals can also help."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if I want to study in Australia but have a criminal record?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Having a criminal record may affect your student visa application. You will need to disclose any criminal history and may be required to provide additional documentation or undergo a character assessment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I apply for a student visa if I have health issues?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Having health issues does not automatically disqualify you from obtaining a student visa. However, you may need to undergo a medical examination and provide evidence of your health status."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if I want to study in Australia but do not meet the English language requirements?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If you do not meet the English language requirements, you may need to take an English language proficiency test or enroll in an English language course before applying for a student visa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I apply for a student visa if I have previously studied in Australia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, you can apply for a student visa even if you have previously studied in Australia. However, you will need to provide documentation of your previous studies and explain your reasons for returning."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I contact Global Visa Internationals for assistance with my student visa application?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can contact Global Visa Internationals through our website or by phone. Our team is ready to assist you with your student visa application and answer any questions you may have."
+          }
+        }
+      ]
+    }
   };
          return(      
                <>    

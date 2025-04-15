@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+
+Sitemap: https://www.globalvisa-internationals.com/sitemap.xml

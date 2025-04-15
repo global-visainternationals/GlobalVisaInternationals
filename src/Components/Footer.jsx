@@ -8,7 +8,7 @@ export default function Footer() {
 <a href="tel:+917022213466">
     <img src='/images/phone.png' alt="Call" className={styles.callIcon}/>
 </a>
-<a href="wa.me/+917022213466">
+<a href="https://wa.me/+917022213466">
     <img src='/images/whatsapp.png' alt="WhatsApp" className={styles.whatsappIcon}/>
 </a>
 </section>

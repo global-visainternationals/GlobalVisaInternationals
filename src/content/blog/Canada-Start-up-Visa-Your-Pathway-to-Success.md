@@ -266,7 +266,7 @@ A: While the Start-up Visa Program is a federal program for all provinces and te
 - [Twitter ](https://twitter.com/GlobalVisaIntern)
 - [Facebook ](https://www.facebook.com/globalvisainternationals/)
 - [Instagram ](https://www.instagram.com/globalvisa_internationals/)
-- [YouTube](https://www.youtube.com/channel/UCZ66f50a0iO9w355Zn02ZNA)
+- [YouTube](https://www.youtube.com/@globalVisaInternationals)
 - [Google Maps Location](https://www.google.com/maps/place/Global+Visa+Internationals/@12.967478,77.6035421,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae15d5613d9a4b:0xea0b2fbdf4f08876!8m2!3d12.967478!4d77.606117!16s%2Fg%2F11c0vm9rhs?entry=ttu&g_ep=EgoyMDI1MDQxNC4xIKXMDSoASAFQAw%3D%3D)
 
 ---

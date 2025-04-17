@@ -4,6 +4,33 @@ import styles from "./Footer.module.css"; // Ensure correct path
 export default function Footer() {
     return (
         <>
+        {/* SEO Structured Data for Business */}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "name": "Global Visa Internationals",
+                "url": "https://globalvisainternationals.com",
+                "logo": "https://globalvisainternationals.com/logo.png",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "G F9 Business Point, 137 Brigade Road, Next to Brigade Tower",
+                    "addressLocality": "Bangalore",
+                    "postalCode": "560025",
+                    "addressCountry": "IN"
+                },
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+91-7022213466",
+                    "contactType": "customer service"
+                },
+                "sameAs": [
+                    "http://linkedin.com/company/globalvisainternationals",
+                    "https://www.youtube.com/@GLOBALVISAINTERNATIONALS",
+                    "https://x.com/GLOBALVISA1505",
+                    "https://instagram.com/globalvisa_internationals/",
+                    "https://facebook.com/globalvisa.globalvisa"
+                ]
+            }) }} />
 <section>
 <a href="tel:+917022213466">
     <img src='/images/phone.png' alt="Call" className={styles.callIcon}/>
@@ -24,6 +51,7 @@ export default function Footer() {
                    target="_blank" rel="noopener noreferrer" aria-label="Visit YouTube">
                     <img className={styles.footerImg} src="/images/youtube.png" alt="YouTube"/>
                 </a>
+                
                 <a href="https://x.com/GLOBALVISA1505" 
                    target="_blank" rel="noopener noreferrer" aria-label="Visit X (Twitter)">
                     <img className={styles.footerImg} src="/images/twitter.png" alt="Twitter"/>
@@ -62,33 +90,7 @@ export default function Footer() {
                 </p>
             </address>
 
-            {/* SEO Structured Data for Business */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "Organization",
-                "name": "Global Visa Internationals",
-                "url": "https://globalvisainternationals.com",
-                "logo": "https://globalvisainternationals.com/logo.png",
-                "address": {
-                    "@type": "PostalAddress",
-                    "streetAddress": "G F9 Business Point, 137 Brigade Road, Next to Brigade Tower",
-                    "addressLocality": "Bangalore",
-                    "postalCode": "560025",
-                    "addressCountry": "IN"
-                },
-                "contactPoint": {
-                    "@type": "ContactPoint",
-                    "telephone": "+91-7022213466",
-                    "contactType": "customer service"
-                },
-                "sameAs": [
-                    "http://linkedin.com/company/globalvisainternationals",
-                    "https://www.youtube.com/@GLOBALVISAINTERNATIONALS",
-                    "https://x.com/GLOBALVISA1505",
-                    "https://instagram.com/globalvisa_internationals/",
-                    "https://facebook.com/globalvisa.globalvisa"
-                ]
-            }) }} />
+            
         </footer>
 
 

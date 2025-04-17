@@ -8,7 +8,9 @@ import html from 'remark-html';
 const postsDirectory = path.join(process.cwd(), 'src/content/blog');
 
 export async function getPostBySlug(slug) {
-  let fullPath = path.join(postsDirectory, `${slug}.mdx`);
+  const decodedSlug = decodeURIComponent(slug);
+let fullPath = path.join(postsDirectory, `${decodedSlug}.mdx`);
+
 
   // If .mdx doesn't exist, try .md extension
   if (!fs.existsSync(fullPath)) {

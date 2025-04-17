@@ -223,7 +223,8 @@ export default function Australia(){
   <meta property="og:description" content="Expert visa assistance for studying in Australia. Get help with Subclass 500 visa, top courses, scholarships, and career pathways." />
   <meta property="og:url" content="https://www.globalvisa-internationals.com/Visa/student-visa/australia" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://www.globalvisa-internationals.com/images/study-in-australia-cover.png" /> {/* Replace with actual image */}
+  <meta property="og:image" content="https://www.globalvisa-internationals.com/images/study-in-australia-cover.png" /> 
+  {/* Replace with actual image */}
 
   {/* Twitter */}
   <meta name="twitter:card" content="summary_large_image" />

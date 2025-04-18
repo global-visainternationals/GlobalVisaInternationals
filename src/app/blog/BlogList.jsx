@@ -5,12 +5,15 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 
+
 const categories = ["Study", "Visit", "Work","Events"];
 const POSTS_PER_PAGE = 9;
 
 export default function BlogList({ posts }) {
+  
   const [filteredCategory, setFilteredCategory] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
+  
 
   const handleCategoryFilter = (category) => {
     setFilteredCategory(category === filteredCategory ? null : category);
@@ -28,12 +31,15 @@ export default function BlogList({ posts }) {
   );
 
   return (
+    <>
+    
+
     <div className={styles.container}>
       <div className={styles.gridWrapper}>
         {/* Blog Grid */}
         <div className={styles.blogGrid}>
           {paginatedPosts.map((post, index) => (
-            <motion.div
+            <motion.article
               key={post.slug}
               className={styles.card}
               initial={{ opacity: 0, y: 20 }}
@@ -75,7 +81,7 @@ export default function BlogList({ posts }) {
                   READ MORE
                 </Link>
               </div>
-            </motion.div>
+            </motion.article>
           ))}
         </div>
 
@@ -120,6 +126,6 @@ export default function BlogList({ posts }) {
           </button>
         </div>
       )}
-    </div>
+    </div></>
   );
 }

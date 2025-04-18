@@ -5,7 +5,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 
-const categories = ["Study", "Visit", "Work"];
+const categories = ["Study", "Visit", "Work","Events"];
 const POSTS_PER_PAGE = 9;
 
 export default function BlogList({ posts }) {

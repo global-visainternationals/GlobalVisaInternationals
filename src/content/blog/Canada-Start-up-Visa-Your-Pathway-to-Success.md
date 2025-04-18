@@ -6,6 +6,7 @@ author: "Global Visa Internationals"
 date: 2025-04-17
 location: "Bengaluru, Karnataka, India (Information relevant globally)"
 image: "/images/canada-start-up-visa.png"
+category: "Work"
 
 ---
 <script type="application/ld+json">

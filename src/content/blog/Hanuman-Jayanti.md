@@ -6,6 +6,7 @@ author: "Global Visa Internationals"
 date: 2025-04-12
 location: "Bengaluru, Karnataka, India"
 image: "/images/hanuman-jayanti.jpg"
+category: "Events"
 ---
 
 

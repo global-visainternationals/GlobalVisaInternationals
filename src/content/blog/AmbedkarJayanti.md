@@ -8,6 +8,7 @@ author: "Global Visa Internationals"
 date: 2025-04-14
 location: "Bengaluru, Karnataka, India"
 image: "/images/Ambedkar Jayanti.png"
+category: "Events"
 ---
 
 

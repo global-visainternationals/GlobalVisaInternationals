@@ -4,6 +4,7 @@ description: "Understand the DHS's strict 'LEAVE NOW' warning for undocumented i
 keywords: ["DHS immigration warning", "US immigration penalties", "undocumented immigrants", "self-deportation", "H-1B visa", "student visa", "immigration fines", "US border security", "Trump immigration policy", "Krishi Noem DHS", "immigration consultants Bengaluru", "US visa assistance Bengaluru", "legal immigration services India", "US immigration lawyer", "visa overstay help", "deportation defense", "legal immigration assistance", "green card application", "work visa USA", "family visa US", "immigration law firm Bengaluru"]
 author: "Global Visa Internationals"
 date: 2025-04-15
+category: "Study"
 location: "Bengaluru, Karnataka, India"
 image: "/images/immigration-warning.jpg"
 ---

@@ -68,7 +68,7 @@ const NavBar = () => {
 
         {/* Navigation Links */}
         <ul className={clsx(styles.navLinks, { [styles.showMenu]: menuOpen })}>
-          <li><Link href="/" title="Home">Home</Link></li>
+          
           <li><Link href="/about-us" title="About Us">About</Link></li>
 
           {/* Dropdown Menus */}
@@ -100,6 +100,7 @@ const NavBar = () => {
           ))}
 
           <li><Link href="/blog" title="Blog">Blog</Link></li>
+          <li><Link href="/career" title="Contact Us">Career</Link></li>
           <li><Link href="/contact" title="Contact Us">Contact</Link></li>
         </ul>
       </nav>

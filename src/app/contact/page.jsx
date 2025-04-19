@@ -76,9 +76,9 @@ export default function Page() {
           name="description"
           content="Global Visa Internationals offers expert immigration consultancy services in Bangalore. Specializing in Canada and Australia PR, student visas, and business immigration with over 29 years of experience."
         />
-        <meta
+        <metaS
           name="keywords"
-          content="immigration consultants Bangalore, Canada PR, Australia PR, student visa Bangalore, business immigration, visa consultancy Bangalore, Global Visa Internationals"
+          content="immigration consultants Bangalore,visa immigration consultants in bangalore, Canada PR, Australia PR, student visa Bangalore, business immigration, visa consultancy Bangalore, Global Visa Internationals"
         />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://www.globalvisainternationals.com/immigration-consultants/bangalore" />

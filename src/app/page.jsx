@@ -54,31 +54,6 @@ const faqs = [
 
 export default function Home() {
   const { executeRecaptcha } = useGoogleReCaptcha();
-
-// thought section
-const words = ["Your Passport To The World Starts With Us"];
-const [textColor, setTextColor] = useState("");
-
-// Function to generate a random RGB color
-const getRandomColor = () => {
-  return `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)})`;
-};
-
-useEffect(() => {
-  setTextColor(getRandomColor());
-
-  // Change text color every 2 seconds
-  const colorInterval = setInterval(() => {
-    setTextColor(getRandomColor());
-  }, 2000);
-
-  return () => clearInterval(colorInterval);
-}, []);
-
-
-
-
-
   const reviewCarouselRef= useRef(null);
   const videoCarouselRef=useRef(null);
 
@@ -202,15 +177,15 @@ useEffect(() => {
   };
 // services section
 const visaTypes = [
-  { type: "Tourist Visa", image:"/images/visit-visa.webp", link: "/tourist-visa", countries: ["canada", "australia", "usa", "uk", "europe", "japan", "dubai", "new-zealand", "singapore"] },
-  { type: "Student Visa", image:"/images/study-visa.webp", link: "/student-visa", countries: ["canada", "australia", "usa", "uk", "europe",   "new-zealand"] },
-  { type: "Business Visa", image:"/images/businessVisa.webp", link: "/business-visa", countries: ["canada", "australia",  "uk", "europe", "new-zealand"] },
-  { type: "Permanent Residency Visa",image:"images/pr-visa.webp", link: "/permanent-residency-visa", countries: ["canada", "australia" ] },
-  { type: "Work Visa", image:"/images/worl-visa.webp" ,link: "/work-visa", countries: ["canada", "australia",  "uk", "europe",  "new-zealand"] },
-  { type: "Dependent Visa",image:"/images/dependentVisa.webp", link: "/dependent-visa", countries: ["canada", "australia", "uk", "europe", "new-zealand"] },
-  { type: "Refusal Visa",image:"/images/refusalVisa.webp" , link: "/refusal-visa", countries: ["canada", "australia", "usa", "uk", "europe",  "new-zealand" ] },
-  { type: "Trade Visa",image:"/images/tradeVisa.webp" , comingSoon: true },
-  { type: "Golden Visa",image:"/images/goldenVisa.webp" , comingSoon: true }
+  { type: "Tourist Visa", image:"/images/visa.webp", link: "/tourist-visa", countries: ["canada", "australia", "usa", "uk", "europe", "japan", "dubai", "new-zealand", "singapore"] },
+  { type: "Student Visa", image:"/images/visa.webp", link: "/student-visa", countries: ["canada", "australia", "usa", "uk", "europe",   "new-zealand"] },
+  { type: "Business Visa", image:"/images/visa.webp", link: "/business-visa", countries: ["canada", "australia",  "uk", "europe", "new-zealand"] },
+  { type: "Permanent Residency Visa",image:"images/visa.webp", link: "/permanent-residency-visa", countries: ["canada", "australia" ] },
+  { type: "Work Visa", image:"/images/visa.webp" ,link: "/work-visa", countries: ["canada", "australia",  "uk", "europe",  "new-zealand"] },
+  { type: "Dependent Visa",image:"/images/visa.webp", link: "/dependent-visa", countries: ["canada", "australia", "uk", "europe", "new-zealand"] },
+  { type: "Refusal Visa",image:"/images/visa.webp" , link: "/refusal-visa", countries: ["canada", "australia", "usa", "uk", "europe",  "new-zealand" ] },
+  { type: "Trade Visa",image:"/images/visa.webp" , comingSoon: true },
+  { type: "Golden Visa",image:"/images/visa.webp" , comingSoon: true }
 ];
 
 
@@ -231,7 +206,7 @@ const visaTypes = [
         {/* Keywords */}
         <meta
           name="keywords"
-          content="Top Immigration Consultancy Services In Bangalore,Visa global website,visa global customer services, visa global france, global visa vfs, global visa online, visa internationals official website,global visa website,global visa customer services, visa global france, global visa vfs,global visa online, visa internationals,visa requirements for internationals travel,international visa for travel,work visa consultent in bangalore,visa consultents near bangalore karnataka,visa consultents near yelahanka bangalore, Top Immigration Consultancy Bangalore, Best Immigration Consultants in Bangalore, Best Visa and Immigration Consultants In Bangalore, Fast Visa Services, Canada PR, USA Visa, Schengen Visa, Study Abroad, Permanent Residency, Visa Assistance, Fast Visa Approval, Immigration Lawyer, Travel Visa, Work Abroad"
+          content="Top Immigration Consultancy Services In Bangalore,visa immigration consultants in bangalore,Visa global website,visa global customer services, visa global france, global visa vfs, global visa online, visa internationals official website,global visa website,global visa customer services, visa global france, global visa vfs,global visa online, visa internationals,visa requirements for internationals travel,international visa for travel,work visa consultent in bangalore,visa consultents near bangalore karnataka,visa consultents near yelahanka bangalore, Top Immigration Consultancy Bangalore, Best Immigration Consultants in Bangalore, Best Visa and Immigration Consultants In Bangalore, Fast Visa Services, Canada PR, USA Visa, Schengen Visa, Study Abroad, Permanent Residency, Visa Assistance, Fast Visa Approval, Immigration Lawyer, Travel Visa, Work Abroad"
         />
 
         {/* Author & Robots */}
@@ -375,25 +350,17 @@ const visaTypes = [
 
 
       {/* Background Image with Correct Styling */}
-      <div className={styles.thoughtSection}>
+      <section className={styles.thoughtSection}>
       <div className={styles.imageContainer}>
         <Image
-          src="/images/w-map.png"
+          src="/images/w-map.webp"
           alt="World Map Background"
           fill
           quality={100}
           className={styles.backgroundImage}
         />
       </div>
-
-      {/* Animated Text */} 
-      <motion.span
-        className={styles.thought}
-        style={{ color: textColor }}
-      >
-        {words[0]}
-      </motion.span>
-    </div>
+    </section>
 
       <h1 className={styles.mainHeading}>
         Global Visa Internationals - Trusted Visa & Immigration Consultant
@@ -405,7 +372,7 @@ const visaTypes = [
           <div className={styles.imageCard}>
             <div className={styles.imageWrapper}>
               <Image
-                src="/images/org.jpeg"
+                src="/images/story.webp"
                 alt="Our Story Image"
                 fill
                 quality={100}

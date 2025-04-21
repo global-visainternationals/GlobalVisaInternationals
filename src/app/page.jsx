@@ -108,16 +108,13 @@ export default function Home() {
  
   const handleSubmit = async (event) => {
     event.preventDefault();
-  
+
     const form = event.target;
     if (!(form instanceof HTMLFormElement)) {
       alert("❌ Unexpected form submission target.");
       return;
     }
-
     const formData = new FormData(form);
-   
-  
     if (!executeRecaptcha) {
       alert("❌ reCAPTCHA not ready");
       return;
@@ -596,9 +593,7 @@ const visaTypes = [
                   <img 
                     className={styles.responsiveImage} 
                     src={visa.image} 
-                    loading="lazy" 
-                    width="250" 
-                    height="150" 
+                    loading="lazy"  
                     alt={`${visa.type} Services`} 
                   />
                   <div className={styles.textOverlay}>{visa.type}</div>

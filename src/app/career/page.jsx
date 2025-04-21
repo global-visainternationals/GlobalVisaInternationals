@@ -9,6 +9,7 @@ export default function CareerPage() {
   const [showPopup, setShowPopup] = useState(false);
   const [age, setAge] = useState('');
 
+
   const calculateAge = (dob) => {
     const birthDate = new Date(dob);
     const today = new Date();
@@ -35,7 +36,12 @@ export default function CareerPage() {
       alert("❌ reCAPTCHA not ready");
       return;
     }
-
+    const resumeFile = form.resume.files[0];
+    if (resumeFile && resumeFile.size > 2 * 1024 * 1024) {
+      alert("Resume file must be under 2MB");
+      return;
+  }
+    
     const token = await executeRecaptcha("job_posting");
     formData.append("recaptchaToken", token);
     formData.append("age", age);
@@ -67,139 +73,139 @@ export default function CareerPage() {
   return (
    
 <div className={styles.JobSec}>
-  <div className={styles.JobData}>
-    <h2 className={styles.Title}>Job Title: Visa Documentation Assistance Specialist</h2>
-    <p><strong>Reports To:</strong> Visa Documentation Manager</p>
-    <p><strong>Job Overview:</strong> This role involves assisting clients with visa documentation, ensuring their applications are complete and accurate. Success in this position requires excellent communication skills, attention to detail, and the ability to clarify client doubts regarding visa requirements. The specialist plays a crucial role in ensuring that all documents are submitted correctly to avoid application failures.</p>
-    
-    <h3 className={styles.subTitle}>Responsibilities and Duties:</h3>
-    <ul>
-      <li>Assist clients in preparing and submitting visa documentation.</li>
-      <li>Clarify client doubts regarding visa requirements and processes.</li>
-      <li>Review applications to ensure they meet all required standards.</li>
-      <li>Guide clients in gathering the necessary supporting documents.</li>
-      <li>Coordinate with relevant departments to verify documentation status.</li>
-      <li>Provide timely updates to clients on application progress.</li>
-    </ul>
-    
-    <h3 className={styles.subTitle}>Qualifications:</h3>
-    <ul>
-      <li>Education level: Bachelor's degree or equivalent.</li>
-      <li>Experience: Previous experience in visa documentation or immigration services is preferred.</li>
-      <li>Specific skills: Excellent communication and organizational skills.</li>
-      <li>Personal characteristics: Detail-oriented, proactive, and client-focused.</li>
-      <li>Certifications: Immigration consultancy or documentation-related certifications are a plus.</li>
-      <li>Licenses: None required.</li>
-      <li>Physical abilities: Ability to work with documents and online application systems for extended periods.</li>
-    </ul>
-  </div>
+<div className={styles.JobData}>
+  <h2 className={styles.Title}>Job Title: Documentation Assistance</h2>
+  <p><strong>Job Overview:</strong> This role involves assisting clients with documentation related to their visa applications. Both freshers and experienced individuals can thrive in this position with the right training and a client-centric attitude. Success in this role comes from clear communication, attention to detail, and the ability to guide clients effectively. The role is essential in ensuring smooth, accurate documentation to reduce application errors and delays.</p>
 
+  <h3 className={styles.subTitle}>Responsibilities and Duties:</h3>
+  <ul>
+    <li>Assist clients in preparing and organizing visa-related documents.</li>
+    <li>Clarify client queries and guide them through the documentation process.</li>
+    <li>Ensure all forms and supporting materials meet visa application standards.</li>
+    <li>Coordinate with internal teams for document verification when required.</li>
+    <li>Keep records organized and update clients on progress or missing paperwork.</li>
+    <li>Follow up proactively to ensure timely submission of applications.</li>
+  </ul>
 
-      <div className={styles.formSection}>
-        <h2>Immigration Inquiry Form</h2>
-        <form id="inquiry-form" onSubmit={handleSubmit} encType="multipart/form-data">
-          <div className={styles.row}>
-            <div>
-              <input
-                className={styles.input}
-                type="text"
-                name="name"
-                placeholder="Enter your name"
-                required
-              />
-            </div>
-            <div>
-              <input
-                className={styles.input}
-                type="tel"
-                name="phone"
-                placeholder="Enter your phone number"
-                required
-              />
-            </div>
-          </div>
+  <h3 className={styles.subTitle}>Qualifications:</h3>
+  <ul>
+    <li>Education level: Minimum PUC or Diploma; Bachelor's degree preferred.</li>
+    <li>Experience: Freshers welcome; 0–2 years in documentation or client service preferred.</li>
+    <li>Specific skills: Strong communication, basic computer proficiency, and multitasking abilities.</li>
+    <li>Personal characteristics: Patient, organized, and eager to learn.</li>
+    <li>Training in customer service or documentation is a bonus.</li>
+    <li>Physical abilities: Ability to work on a computer for extended hours and manage physical files if needed.</li>
+  </ul>
+</div>
 
-          <div className={styles.row}>
-            <div>
-              <select className={styles.select} name="experience" required>
-                <option value="">Select Experience</option>
-                <option value="0 years">0 years</option>
-                <option value="0-1 years">0-1 years</option>
-                <option value="1-3 years">1-3 years</option>
-                <option value="3-5 years">3-5 years</option>
-                <option value="5+ years">5+ years</option>
-              </select>
-            </div>
-            <div>
-              <input
-                className={styles.input}
-                type="date"
-                name="dob"
-                onChange={handleDOBChange}
-                required
-              />
-            </div>
-          </div>
-
-          <div className={styles.row}>
-            <div>
-              <select className={styles.select} name="education" required>
-                <option value="">Select Qualification</option>
-                {["Diploma", "Bachelor's", "Master's", "PUC", "Other"].map((edu) => (
-                  <option key={edu} value={edu}>{edu}</option>
-                ))}
-              </select>
-            </div>
-            <div>
-              <input
-                className={styles.input}
-                type="email"
-                name="email"
-                placeholder="Enter your email"
-                required
-              />
-            </div>
-          </div>
-
-          <div className={styles.row}>
-            <div>
-              <input
-                className={styles.input}
-                type="file"
-                name="resume"
-                accept=".pdf,.doc,.docx"
-                required
-              />
-            </div>
-            <div>
-              <input
-                className={styles.input}
-                type="text"
-                value={age}
-                placeholder="Auto-calculated Age"
-                disabled
-              />
-            </div>
-          </div>
-
-          <button
-            className={styles.submittingBtn}
-            type="submit"
-            disabled={isSubmitting}
-          >
-            {isSubmitting ? "Submitting..." : "Submit"}
-          </button>
-        </form>
-
-        {showPopup && (
-          <div className={styles.popupOverlay}>
-            <div className={styles.popupContent}>
-              <p>✅ Your form has been submitted successfully!</p>
-              <button onClick={() => setShowPopup(false)}>Close</button>
-            </div>
-          </div>
-        )}
+<div className={styles.formSection}>
+  <h2>Application Form</h2>
+  <form id="inquiry-form" onSubmit={handleSubmit} encType="multipart/form-data">
+    <div className={styles.row}>
+      <div>
+        <input
+          className={styles.input}
+          type="text"
+          name="name"
+          placeholder="Full Name"
+          required
+        />
       </div>
+      <div>
+        <input
+          className={styles.input}
+          type="tel"
+          name="phone"
+          placeholder="Phone Number"
+          pattern="[0-9]{10}"
+          title="Enter a 10-digit mobile number"
+          required
+        />
+      </div>
+    </div>
+
+    <div className={styles.row}>
+      <div>
+        <select className={styles.select} name="experience" required>
+          <option value="">Select Experience</option>
+          <option value="0 years">Fresher (0 years)</option>
+          <option value="0-1 years">0–1 years</option>
+          <option value="1-3 years">1–3 years</option>
+          <option value="3-5 years">3–5 years</option>
+          <option value="5+ years">5+ years</option>
+        </select>
+      </div>
+      <div>
+        <input
+          className={styles.input}
+          type="date"
+          name="dob"
+          onChange={handleDOBChange}
+          required
+        />
+      </div>
+    </div>
+
+    <div className={styles.row}>
+      <div>
+        <select className={styles.select} name="education" required>
+          <option value="">Select Qualification</option>
+          {["PUC", "Diploma", "Bachelor's", "Master's", "Other"].map((edu) => (
+            <option key={edu} value={edu}>{edu}</option>
+          ))}
+        </select>
+      </div>
+      <div>
+        <input
+          className={styles.input}
+          type="email"
+          name="email"
+          placeholder="Email Address"
+          required
+        />
+      </div>
+    </div>
+
+    <div className={styles.row}>
+      <div>
+        <input
+          className={styles.input}
+          type="file"
+          name="resume"
+          accept=".pdf,.doc,.docx"
+          required
+        />
+      </div>
+      <div>
+        <input
+          className={styles.input}
+          type="text"
+          value={age}
+          placeholder="Calculated Age"
+          disabled
+        />
+      </div>
+    </div>
+
+    <button
+      className={styles.submittingBtn}
+      type="submit"
+      disabled={isSubmitting}
+    >
+      {isSubmitting ? "Submitting..." : "Submit Application"}
+    </button>
+  </form>
+
+  {showPopup && (
+    <div className={styles.popupOverlay}>
+      <div className={styles.popupContent}>
+        <p>✅ Your application has been submitted successfully!</p>
+        <button onClick={() => setShowPopup(false)}>Close</button>
+      </div>
+    </div>
+  )}
+</div>
+
     </div>
   );
 }

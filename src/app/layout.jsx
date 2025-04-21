@@ -12,10 +12,9 @@
       
         
         <head>
-        <title>Best Visa Consultants in Bangalore | Global Visa Internationals</title>
+      <title>Best Visa Consultants in Bangalore | Global Visa Internationals</title>
 
-        <meta name="description" content="Leading visa and immigration consultants in Bangalore for Canada, USA, UK, Australia & Europe. Study abroad, work, or settle with expert help from Global Visa Internationals." />
-
+       <meta name="description" content="Leading visa and immigration consultants in Bangalore for Canada, USA, UK, Australia & Europe. Study abroad, work, or settle with expert help from Global Visa Internationals." />
        <meta name="viewport" content="width=device-width, initial-scale=1" />
        <meta name="author" content="Global Visa Internationals" />
        <meta name="keywords" content="top 10 travel agency in bangalore,visa, immigration, Canada visa, USA visa, work visa, study abroad,global visa services,global international consultancy,global visa services dubai,global company bangalore,global visa service,global bangalore	,bangalore visa,global immigration consultant services,immigration canada consultant,best consultant for canada pr,global visa solutions,travel visa near me" />
@@ -29,6 +28,7 @@
        <meta property="og:image" content="https://www.globalvisa-internationals.com/globalvisainternationals.webp" />
        <meta property="og:url" content="https://www.globalvisa-internationals.com/" />
        <meta property="og:type" content="website" />
+       
        {/* Twitter Card (X) */}
        <meta name="twitter:card" content="summary_large_image" />
        <meta name="twitter:title" content="Global Visa Internationals" />

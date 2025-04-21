@@ -70,8 +70,9 @@ export default function About() {
   
     return (
       <>
+      <section className={styles.aboutUsContainer}>
+      <h1>Global Visa Internationals – Your Trusted Immigration & Visa Experts</h1>
              <section className={styles.storyContainer}>
-             <h1>Global Visa Internationals – Your Trusted Immigration & Visa Experts</h1>
           <div className={styles.textContent}>
             
             <p className={styles.story}>At <strong>Global Visa Internationals,</strong> we specialize in simplifying the complex world of global mobility. Founded by <strong>Mrs. Anusha Prashanth,</strong> a dynamic leader with over a decade of hands-on experience in immigration and visa consultancy, we’ve proudly helped over <strong> 55,000+</strong> individuals secure their visas and advised more than <strong>75,000+ </strong>clients worldwide.</p>
@@ -94,10 +95,8 @@ export default function About() {
               />
             </div>
           </div>
-
-          <h2></h2>
         </section>
-
+        </section>
 
         <section className={styles.aboutSec}>
 
@@ -135,9 +134,6 @@ export default function About() {
 Let Global Visa Internationals help you take the next step toward your dream destination. Contact us for a free consultation.
       </ul>
       </section>
-
-
-      
       <div className={styles.formSection}>
                           <h2>Immigration Inquiry Form</h2>
                           <form  id="inquiry-form" onSubmit={handleSubmit}>
@@ -210,10 +206,13 @@ Let Global Visa Internationals help you take the next step toward your dream des
                       </div>
                     </div>
                   )}
-                        </div> 
+                        </div>
+
         </section>
-        
       
+      
+        
+                       
       
       </>
     );

@@ -366,16 +366,16 @@ const visaTypes = [
       {/* About Us Section */}
       <section id="aboutUs">
         <section className={styles.storyContainer}>
-          <div className={styles.imageCard}>
+          
             <div className={styles.imageWrapper}>
               <Image
                 src="/images/story.webp"
                 alt="Our Story Image"
                 fill
                 quality={100}
-                className={styles.responsiveImage}
+                className={styles.responsiveImage1}
               />
-            </div>
+            
           </div>
 
           {/* Text Section */}

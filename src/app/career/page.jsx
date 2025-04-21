@@ -69,7 +69,7 @@ export default function CareerPage() {
         <ul>
           <li>Education: PUC or Diploma minimum; Bachelor’s preferred.</li>
           <li>Experience: 0–2 years in documentation or client service preferred.</li>
-          <li>Skills: Strong communication, basic computer knowledge, multitasking.</li>
+          <li>Skills: Strong communication, basic computer , multitasking.</li>
           <li>Traits: Patient, organized, eager to learn.</li>
         </ul>
 
@@ -88,114 +88,118 @@ export default function CareerPage() {
         <ul>
           <li>Education: Any degree.</li>
           <li>Experience: 0–3 years in sales, preferably in education/immigration sectors.</li>
-          <li>Skills: Communication, persuasion, time management.</li>
+          <li>Skills: Communication, persuasion, CRM tools, time management.</li>
         </ul>
       </div>
 
       <div className={styles.formSection}>
-        <h2>Application Form</h2>
-        <form id="inquiry-form" onSubmit={handleSubmit} encType="multipart/form-data">
-          <div className={styles.row}>
-            <div>
-              <input
-                className={styles.input}
-                type="text"
-                name="name"
-                placeholder="Full Name"
-                required
-              />
-            </div>
-            <div>
-              <input
-                className={styles.input}
-                type="tel"
-                name="phone"
-                placeholder="Phone Number"
-                pattern="[0-9]{10}"
-                title="Enter a 10-digit mobile number"
-                required
-              />
-            </div>
-          </div>
-
-          <div className={styles.row}>
-            <div>
-              <select className={styles.select} name="experience" required>
-                <option value="">Select Experience</option>
-                <option value="0 years">Fresher (0 years)</option>
-                <option value="0-1 years">0–1 years</option>
-                <option value="1-3 years">1–3 years</option>
-                <option value="3-5 years">3–5 years</option>
-                <option value="5+ years">5+ years</option>
-              </select>
-            </div>
-            <div>
-              <input
-                className={styles.input}
-                type="date"
-                name="dob"
-                required
-              />
-            </div>
-          </div>
-
-          <div className={styles.row}>
-            <div>
-              <select className={styles.select} name="education" required>
-                <option value="">Select Qualification</option>
-                {["PUC", "Diploma", "Bachelor's", "Master's", "Other"].map((edu) => (
-                  <option key={edu} value={edu}>{edu}</option>
-                ))}
-              </select>
-            </div>
-            <div>
-              <input
-                className={styles.input}
-                type="email"
-                name="email"
-                placeholder="Email Address"
-                required
-              />
-            </div>
-          </div>
-
-          <div className={styles.row}>
-            <div>
-              <input
-                className={styles.input}
-                type="file"
-                name="resume"
-                accept=".pdf,.doc,.docx"
-                required
-              />
-            </div>
-            <div>
-              <select className={styles.select} name="jobTitle" required>
-                <option value="">Applying For Job</option>
-                <option value="Documentation Executive">Documentation Executive</option>
-                <option value="Sales Executive">Sales Executive</option>
-              </select>
-            </div>
-          </div>
-
-          <button
-            className={styles.submittingBtn}
-            type="submit"
-            disabled={isSubmitting}
-          >
-            {isSubmitting ? "Submitting..." : "Submit Application"}
-          </button>
-        </form>
-
-        {showPopup && (
-          <div className={styles.popupOverlay}>
-            <div className={styles.popupContent}>
-              <p>✅ Your application has been submitted successfully!</p>
-              <button onClick={() => setShowPopup(false)}>Close</button>
-            </div>
-          </div>
-        )}
+  <h2>Application Form</h2>
+  <form id="inquiry-form" onSubmit={handleSubmit} encType="multipart/form-data">
+    
+    {/* Full Name & Phone */}
+    <div className={styles.row}>
+      <div>
+        <input
+          className={styles.input}
+          type="text"
+          name="name"
+          placeholder="Full Name"
+          required
+        />
       </div>
+      <div>
+        <input
+          className={styles.input}
+          type="tel"
+          name="phone"
+          placeholder="Phone Number (10 digits)"
+          pattern="[0-9]{10}"
+          title="Enter a 10-digit mobile number"
+          required
+        />
+      </div>
+    </div>
+
+    {/* Experience & DOB */}
+    <div className={styles.row}>
+      <div>
+        <select className={styles.select} name="experience" required>
+          <option value="" disabled selected hidden>Select Experience</option>
+          <option value="0 years">Fresher (0 years)</option>
+          <option value="0-1 years">0–1 years</option>
+          <option value="1-3 years">1–3 years</option>
+          <option value="3-5 years">3–5 years</option>
+          <option value="5+ years">5+ years</option>
+        </select>
+      </div>
+      <div>
+        <input
+          className={styles.input}
+          type="date"
+          name="dob"
+          required
+          max={new Date().toISOString().split("T")[0]}
+          title="Select your date of birth"
+        />
+      </div>
+    </div>
+
+    {/* Qualification & Email */}
+    <div className={styles.row}>
+      <div>
+        <select className={styles.select} name="education" required>
+          <option value="" disabled selected hidden>Select Qualification</option>
+          {["PUC", "Diploma", "Bachelor's", "Master's", "Other"].map((edu) => (
+            <option key={edu} value={edu}>{edu}</option>
+          ))}
+        </select>
+      </div>
+      <div>
+        <input
+          className={styles.input}
+          type="email"
+          name="email"
+          placeholder="Email Address"
+          required
+        />
+      </div>
+    </div>
+
+    {/* Resume Upload & Job Role */}
+    <div className={styles.row}>
+      <div>
+        <input
+          className={styles.input}
+          type="file"
+          name="resume"
+          accept=".pdf,.doc,.docx"
+          required
+        />
+      </div>
+      <div>
+        <select className={styles.select} name="jobTitle" required>
+          <option value="" disabled selected hidden>Applying For Job</option>
+          <option value="Documentation Executive">Documentation Executive</option>
+          <option value="Sales Executive">Sales Executive</option>
+        </select>
+      </div>
+    </div>
+
+    <button className={styles.submittingBtn} type="submit" disabled={isSubmitting}>
+      {isSubmitting ? "Submitting..." : "Submit Application"}
+    </button>
+  </form>
+
+  {showPopup && (
+    <div className={styles.popupOverlay}>
+      <div className={styles.popupContent}>
+        <p>✅ Your application has been submitted successfully!</p>
+        <button onClick={() => setShowPopup(false)}>Close</button>
+      </div>
+    </div>
+  )}
+</div>
+
     </div>
   );
 }

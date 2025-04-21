@@ -53,6 +53,7 @@ DOB: ${fields.dob}
 Age: ${fields.age}
 Experience: ${fields.experience}
 Education: ${fields.education}
+Job Title: ${fields.jobTitle}
       `,
       attachments: [
         {

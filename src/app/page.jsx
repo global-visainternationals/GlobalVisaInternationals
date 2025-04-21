@@ -181,7 +181,7 @@ const visaTypes = [
   { type: "Work Visa", image:"/images/visa.webp" ,link: "/work-visa", countries: ["canada", "australia",  "uk", "europe",  "new-zealand"] },
   { type: "Dependent Visa",image:"/images/visa.webp", link: "/dependent-visa", countries: ["canada", "australia", "uk", "europe", "new-zealand"] },
   { type: "Refusal Visa",image:"/images/visa.webp" , link: "/refusal-visa", countries: ["canada", "australia", "usa", "uk", "europe",  "new-zealand" ] },
-  { type: "Trade Visa",image:"/images/visa.webp" , comingSoon: true },
+  // { type: "Trade Visa",image:"/images/visa.webp" , comingSoon: true },
   { type: "Golden Visa",image:"/images/visa.webp" , comingSoon: true }
 ];
 

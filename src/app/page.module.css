@@ -98,9 +98,6 @@
 }
 
 /* Optional blur for background effect */
-.responsiveImage {
-  filter: blur(1px);
-}
 
 /* Wrapper for image with fixed aspect ratio */
 .imageWrapper {
@@ -619,6 +616,7 @@
 .visaCardBack .visaType {
   font-size: 18px;
   font-weight: bold;
+  text-align: center;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
@@ -626,11 +624,15 @@
 /* List Styling */
 .visaCardBack ul {
   list-style: none;
+  text-align: center;
   padding: 0;
   margin: 0;
 }
 
 .visaCardBack li {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   font-size: 14px;
   padding: 5px;
   border-bottom: 1px dotted #000;

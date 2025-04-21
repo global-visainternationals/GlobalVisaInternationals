@@ -2,6 +2,9 @@
 import { useState } from 'react';
 import styles from './JobForm.module.css';
 import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
+import Head from 'next/head';
+import Script from 'next/script';
+
 
 export default function CareerPage() {
   const { executeRecaptcha } = useGoogleReCaptcha();
@@ -50,7 +53,78 @@ export default function CareerPage() {
       .finally(() => setIsSubmitting(false));
   };
 
+
+
   return (
+    <>
+    <Head>
+  <title>Careers at Global Visa Internationals | Join Our Immigration Experts</title>
+  <meta name="description" content="Explore exciting career opportunities at Global Visa Internationals in Bengaluru. Join our expert team helping clients achieve their immigration dreams across Canada, UK, Australia, and more." />
+  <meta name="keywords" content="Immigration Careers, Visa Consultant Jobs, Global Visa Internationals Careers, Jobs in Bengaluru, Canada Visa Jobs, Work Visa Consulting Careers" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.globalvisa-internationals.com/career" />
+
+  {/* Open Graph */}
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Careers at Global Visa Internationals | Join Our Immigration Experts" />
+  <meta property="og:description" content="Discover job openings and career growth at Global Visa Internationals. Be part of a fast-growing visa consulting firm in Bengaluru." />
+  <meta property="og:url" content="https://www.globalvisa-internationals.com/career" />
+  <meta property="og:image" content="https://www.globalvisa-internationals.com/gvilogo.png" />
+  <meta property="og:site_name" content="Global Visa Internationals" />
+
+  {/* Twitter Cards */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Careers at Global Visa Internationals | Join Our Immigration Experts" />
+  <meta name="twitter:description" content="Discover job opportunities at Global Visa Internationals in Bengaluru. Help people achieve their immigration goals." />
+  <meta name="twitter:image" content="https://www.globalvisa-internationals.com/gvilogo.png" />
+  <meta name="twitter:site" content="@GlobalVisaIntern" />
+
+  {/* Schema */}
+  <script type="application/ld+json" id="career-org-schema" dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Global Visa Internationals",
+      "url": "https://www.globalvisa-internationals.com",
+      "logo": "https://www.globalvisa-internationals.com/gvilogo.png",
+      "description": "Unlock your entrepreneurial dreams in Canada with the Start-up Visa program...",
+      "founder": { "@type": "Person", "name": "Naveen Kumar J" },
+      "foundingDate": "2016",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "MG Road",
+        "addressLocality": "Bengaluru",
+        "addressRegion": "Karnataka",
+        "postalCode": "560025",
+        "addressCountry": "IN"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-7022213466",
+        "contactType": "Customer Support",
+        "areaServed": "IN",
+        "availableLanguage": ["English", "Hindi", "Kannada", "Tamil"]
+      },
+      "areaServed": ["IN", "CA", "UK", "EU"],
+      "sameAs": [
+        "https://www.facebook.com/globalvisainternationals/",
+        "https://www.instagram.com/globalvisa_internationals/",
+        "https://www.linkedin.com/company/global-visa-internationals/",
+        "https://twitter.com/GlobalVisaIntern",
+        "https://www.youtube.com/@globalVisaInternationals",
+        "https://www.google.com/maps/place/Global+Visa+Internationals/@12.967478,77.6035421,17z"
+      ]
+    })
+  }} />
+</Head>
+
+
+
+
+
+
+
+
     <div className={styles.JobSec}>
       <div className={styles.JobData}>
         <h2 className={styles.Title}>Job Title: Documentation Executive</h2>
@@ -200,6 +274,6 @@ export default function CareerPage() {
   )}
 </div>
 
-    </div>
+    </div></>
   );
 }

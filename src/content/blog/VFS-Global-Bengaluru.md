@@ -13,7 +13,7 @@ author: "Global Visa Internationals"
 date: 2025-04-22
 location: "Bengaluru, Karnataka, India (Information relevant globally)"
 image: "/images/VFS-Global-Bengaluru.webp"
-category: "VFS.Global"
+category: "VFS Global"
 geo:
   region: IN-KA
   placename: Bengaluru

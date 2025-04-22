@@ -5,24 +5,22 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 
-
-const categories = ["Study", "Visit", "Work","Events","PR-Visa","Travel","VFS.Global"];
+const categories = ["All", "Study", "Visit", "Work", "Events", "PR-Visa", "Travel", "VFS Global"];
 const POSTS_PER_PAGE = 9;
 
 export default function BlogList({ posts }) {
-  
-  const [filteredCategory, setFilteredCategory] = useState(null);
+  const [filteredCategory, setFilteredCategory] = useState("All");
   const [currentPage, setCurrentPage] = useState(1);
-  
 
   const handleCategoryFilter = (category) => {
-    setFilteredCategory(category === filteredCategory ? null : category);
-    setCurrentPage(1); // reset to page 1 when category changes
+    setFilteredCategory(category);
+    setCurrentPage(1);
   };
 
-  const filteredPosts = filteredCategory
-    ? posts.filter((post) => post.category === filteredCategory)
-    : posts;
+  const filteredPosts =
+    filteredCategory === "All"
+      ? posts
+      : posts.filter((post) => post.category === filteredCategory);
 
   const totalPages = Math.ceil(filteredPosts.length / POSTS_PER_PAGE);
   const paginatedPosts = filteredPosts.slice(
@@ -31,9 +29,6 @@ export default function BlogList({ posts }) {
   );
 
   return (
-    <>
-    
-
     <div className={styles.container}>
       <div className={styles.gridWrapper}>
         {/* Blog Grid */}
@@ -46,18 +41,22 @@ export default function BlogList({ posts }) {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.3, delay: index * 0.1 }}
             >
-              <Link href={`/blog/${post.slug}`}>
+              <Link href={`/blog/${post.slug}`} aria-label={`Read ${post.title}`}>
                 {post.image && (
-                 <div style={{ width: '100%', position: 'relative', aspectRatio: '16 / 9' }}>
-                  <Image
-                    src={post.image}
-                    alt={post.title}
-                    fill
-                    style={{ objectFit: 'contain', borderRadius: '10px' }}
-                  />
-                </div>
-
-
+                  <div
+                    style={{
+                      width: '100%',
+                      position: 'relative',
+                      aspectRatio: '16 / 9',
+                    }}
+                  >
+                    <Image
+                      src={post.image}
+                      alt={post.title}
+                      fill
+                      style={{ objectFit: 'contain', borderRadius: '10px' }}
+                    />
+                  </div>
                 )}
               </Link>
 
@@ -92,12 +91,14 @@ export default function BlogList({ posts }) {
             {categories.map((cat) => (
               <li
                 key={cat}
+                className={
+                  filteredCategory === cat
+                    ? `${styles.activeCategory}`
+                    : ''
+                }
                 onClick={() => handleCategoryFilter(cat)}
-                style={{
-                  fontWeight: filteredCategory === cat ? 'bold' : 'normal',
-                  textDecoration: filteredCategory === cat ? 'underline' : 'none',
-                  cursor: 'pointer',
-                }}
+                role="button"
+                aria-pressed={filteredCategory === cat}
               >
                 {cat}
               </li>
@@ -116,7 +117,17 @@ export default function BlogList({ posts }) {
             Previous
           </button>
 
-          <span>Page {currentPage} of {totalPages}</span>
+          {[...Array(totalPages)].map((_, i) => (
+            <button
+              key={i + 1}
+              className={
+                currentPage === i + 1 ? styles.activePage : ''
+              }
+              onClick={() => setCurrentPage(i + 1)}
+            >
+              {i + 1}
+            </button>
+          ))}
 
           <button
             onClick={() => setCurrentPage((prev) => Math.min(prev + 1, totalPages))}
@@ -126,6 +137,6 @@ export default function BlogList({ posts }) {
           </button>
         </div>
       )}
-    </div></>
+    </div>
   );
 }

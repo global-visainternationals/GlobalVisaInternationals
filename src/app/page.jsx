@@ -191,8 +191,11 @@ const visaTypes = [
     <>
 {/* SEO Meta Tags */}
 <Head>
-  <meta charSet="UTF-8" />
+<title>Global Visa Internationals | Trusted Immigration Consultants in Bangalore</title>
+  <meta name="description" content="Leading immigration consultants in Bangalore offering visa services for Canada PR, USA, UK, Australia, Schengen, and other countries. Over 75,000 clients served with fast and genuine guidance. Contact us for transparent visa services!" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charSet="UTF-8" />
+  
 
   {/* Title & Meta Description */}
   <title>Global Visa Internationals | Trusted Immigration Consultants in Bangalore</title>

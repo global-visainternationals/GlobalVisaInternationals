@@ -6,7 +6,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 
 
-const categories = ["Study", "Visit", "Work","Events","PR-Visa","Travel"];
+const categories = ["Study", "Visit", "Work","Events","PR-Visa","Travel","VFS.Global"];
 const POSTS_PER_PAGE = 9;
 
 export default function BlogList({ posts }) {

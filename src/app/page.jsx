@@ -203,7 +203,7 @@ const visaTypes = [
         {/* Keywords */}
         <meta
           name="keywords"
-          content="Top Immigration Consultancy Services In Bangalore,visa immigration consultants in bangalore,Visa global website,visa global customer services, visa global france, global visa vfs, global visa online, visa internationals official website,global visa website,global visa customer services, visa global france, global visa vfs,global visa online, visa internationals,visa requirements for internationals travel,international visa for travel,work visa consultent in bangalore,visa consultents near bangalore karnataka,visa consultents near yelahanka bangalore, Top Immigration Consultancy Bangalore, Best Immigration Consultants in Bangalore, Best Visa and Immigration Consultants In Bangalore, Fast Visa Services, Canada PR, USA Visa, Schengen Visa, Study Abroad, Permanent Residency, Visa Assistance, Fast Visa Approval, Immigration Lawyer, Travel Visa, Work Abroad"
+          content="Top Immigration Consultancy Services In Bangalore,visa immigration consultants in bangalore,visa global customer services, visa global france, global visa vfs, global visa online, visa internationals,international visa for travel,work visa consultent in bangalore,visa consultents near bangalore karnataka,visa consultents near yelahanka bangalore, Top Immigration Consultancy Bangalore, Best Immigration Consultants in Bangalore, Best Visa and Immigration Consultants In Bangalore, Fast Visa Services, Canada PR, USA Visa, Schengen Visa, Study Abroad, Permanent Residency, Visa Assistance, Fast Visa Approval, Immigration Lawyer, Travel Visa, Work Abroad,visa office bangalore,visa,visa bangalore,vfs global bengaluru,visa agents in bangalore,singapore visa agents in bangalore,global immigration services,visa bangalore office,bangalore visa office,uk immigration,visa consultants in bangalore,global visa,japan visa agents in bangalore,best immigration consultants in bangalore,dubai visa agents in bangalore"
         />
 
         {/* Author & Robots */}
@@ -408,6 +408,43 @@ const visaTypes = [
       <p>Over the years, we have successfully supported thousands of individuals and families in achieving their migration goals. Whether you are seeking immigration, study abroad opportunities, or citizenship by investment, Global Visa Internationals is here to assist you at every step.</p>
 
     </section>
+    <section >
+            <div className={styles.whyGrid}>
+                <div className={styles.whyCard}>
+                  <img className={styles.whyImg} src="/images/networking.png" alt="network" loading="lazy"/>
+                  <strong>75+</strong> 
+                   <p> 
+                    Years of combined industry experience</p>
+                </div>
+                
+                <div className={styles.whyCard}>
+                    <img className={styles.whyImg} src="/images/globe.png" alt="connections" loading="lazy"/>
+                    <strong>15+</strong>
+                    <p>
+                    Countries offered as immigration destinations</p>
+                </div>
+                
+                <div className={styles.whyCard}>
+                    <img className={styles.whyImg} src="/images/crowd-of-users.png" loading="lazy" alt=""/>
+                    <strong>50+</strong>
+                    <p>
+                    Visa options for skilled and business categories</p>
+                </div>
+                
+                <div className={styles.whyCard}>
+                    <img className={styles.whyImg} src="/images/airplane.png" loading="lazy" alt=""/>
+                    <strong>35000+</strong>
+                    <p>
+                    Immigrations executed</p>
+                </div>               
+                <div className={styles.whyCard}>
+                    <img className={styles.whyImg} src="/images/calendar.png" loading="lazy" alt=""/>
+                    <strong>Since 2013</strong>
+                    
+                    <p>Over One decades of excellence</p>
+                </div>
+            </div> 
+    </section>
 
     <h2 className={styles.subtitle}>Client Reviews</h2>
             <div className={styles.clientReviewsContainer}>
@@ -466,43 +503,7 @@ const visaTypes = [
                 </div>
             </div>
    
-    <section >
-            <div className={styles.whyGrid}>
-                <div className={styles.whyCard}>
-                  <img className={styles.whyImg} src="/images/networking.png" alt="network" loading="lazy"/>
-                  <strong>75+</strong> 
-                   <p> 
-                    Years of combined industry experience</p>
-                </div>
-                
-                <div className={styles.whyCard}>
-                    <img className={styles.whyImg} src="/images/globe.png" alt="connections" loading="lazy"/>
-                    <strong>15+</strong>
-                    <p>
-                    Countries offered as immigration destinations</p>
-                </div>
-                
-                <div className={styles.whyCard}>
-                    <img className={styles.whyImg} src="/images/crowd-of-users.png" loading="lazy" alt=""/>
-                    <strong>50+</strong>
-                    <p>
-                    Visa options for skilled and business categories</p>
-                </div>
-                
-                <div className={styles.whyCard}>
-                    <img className={styles.whyImg} src="/images/airplane.png" loading="lazy" alt=""/>
-                    <strong>35000+</strong>
-                    <p>
-                    Immigrations executed</p>
-                </div>               
-                <div className={styles.whyCard}>
-                    <img className={styles.whyImg} src="/images/calendar.png" loading="lazy" alt=""/>
-                    <strong>Since 2013</strong>
-                    
-                    <p>Over One decades of excellence</p>
-                </div>
-            </div> 
-    </section>
+
   
 
         

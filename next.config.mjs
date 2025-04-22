@@ -1,5 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
-
+const nextConfig = {
+    webpack: (config, { isServer }) => {
+      config.cache = false; // ✅ Disable Webpack persistent caching
+      return config;
+    },
+  };
+  
+  export default nextConfig;
+  

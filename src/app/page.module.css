@@ -245,10 +245,8 @@
   width: 320px;
   overflow: hidden;
   white-space: normal;
-  background: #ffffff;
   height: 250px;
   border-radius: 10px;
-  border: 2px solid #5c5b5b;
   padding: 25px;
   font-size: small; 
   text-align: justify;
@@ -263,13 +261,9 @@
 }
 
 .clientReviewsContainer, .videoContainer {
- 
-  
   overflow: hidden;
   padding: 20px;
   border-radius: 10px; 
-  box-shadow: 0 4px 8px #504f4f;
-  background-color: #ffffff;
   position: relative;
   display: flex;
   align-items: center;
@@ -305,8 +299,7 @@
 .videoTestimonial video {
   width: 300px;
   height: 200px;
-  color: #277a00;;
-  border: 2px solid #2f3131;
+  /* border: 2px solid #2f3131; */
   border-radius: 10px;
 }
 

@@ -47,6 +47,45 @@ category: "PR-Visa"
 </script>
 
 
+---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "Global Visa Internationals",
+  "url": "https://www.globalvisa-internationals.com",
+  "logo": "https://www.globalvisa-internationals.com/gvilogo.png",
+  "description": "Explore the comprehensive guide to Australia's Permanent Residency (PR) visa in 2025. Learn about eligibility criteria, application process, benefits, and FAQs. Start your journey to Australian permanent residency today.",
+  "founder": {
+    "@type": "Person",
+    "name": "Naveen Kumar J"
+  },
+  "foundingDate": "2016",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "MG Road",
+    "addressLocality": "Bengaluru",
+    "addressRegion": "Karnataka",
+    "postalCode": "560025",
+    "addressCountry": "IN"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91-7022213466",
+    "contactType": "Customer Support",
+    "areaServed": "IN",
+    "availableLanguage": ["English", "Hindi", "Kannada", "Tamil"]
+  },
+  "areaServed": ["IN", "AU", "UK", "EU"],
+  "sameAs": [
+    "https://www.facebook.com/GlobalVisaInternationals",
+    "https://www.instagram.com/globalvisa_internationals/",
+    "https://www.linkedin.com/company/globalvisa-internationals"
+  ]
+}
+</script>
+
+
 
 ## Embark on Your Australian Dream: The Ultimate 2025 Guide to Permanent Residency
 

@@ -1,7 +1,7 @@
 ---
 title: "Hanuman Jayanti 2025 in Bengaluru"
 description: "Celebrate Hanuman Jayanti 2025 in Bengaluru with dates, rituals, temples, and festivities. Learn about the significance and how Karnataka honors Lord Hanuman's birth."
-keywords: "Hanuman Jayanti 2025, Bengaluru Hanuman Jayanti, ISKCON Hanuman festival, Karnataka Hindu festivals, April 2025 Hindu festivals, Hanuman temples Bangalore"
+keywords: ["Hanuman Jayanti 2025", "Bengaluru Hanuman Jayanti", "ISKCON Hanuman festival", "Karnataka Hindu festivals", "April 2025 Hindu festivals", "Hanuman temples Bangalore"]
 author: "Global Visa Internationals"
 date: 2025-04-12
 location: "Bengaluru, Karnataka, India"
@@ -9,6 +9,46 @@ image: "/images/hanuman-jayanti.jpg"
 category: "Events"
 ---
 
+<!-- Organization Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Global Visa Internationals",
+  "url": "https://www.globalvisa-internationals.com",
+  "logo": "https://www.globalvisa-internationals.com/gvilogo.png",
+  "description": "Global Visa Internationals is a trusted immigration consultancy helping clients with visas and global relocation services. Based in Bengaluru, we support worldwide immigration including Canada, UK, Australia, and New Zealand.",
+  "founder": {
+    "@type": "Person",
+    "name": "Naveen Kumar J"
+  },
+  "foundingDate": "2016",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "MG Road",
+    "addressLocality": "Bengaluru",
+    "addressRegion": "Karnataka",
+    "postalCode": "560025",
+    "addressCountry": "IN"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91-7022213466",
+    "contactType": "Customer Support",
+    "areaServed": "IN",
+    "availableLanguage": ["English", "Hindi", "Kannada", "Tamil"]
+  },
+  "areaServed": ["IN", "CA", "UK", "EU", "NZ", "AU"],
+  "sameAs": [
+    "https://www.facebook.com/globalvisainternationals/",
+    "https://www.instagram.com/globalvisa_internationals/",
+    "https://www.linkedin.com/company/global-visa-internationals/",
+    "https://twitter.com/GlobalVisaIntern",
+    "https://www.youtube.com/@globalVisaInternationals",
+    "https://www.google.com/maps/place/Global+Visa+Internationals/@12.967478,77.6035421,17z"
+  ]
+}
+</script>
 
 ## 📅 Date & Muhurat for Hanuman Jayanti 2025
 

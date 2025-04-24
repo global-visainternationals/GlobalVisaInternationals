@@ -1,13 +1,56 @@
 ---
 title: "From Dreams to Departure: How to Immigrate to New Zealand in 2025"
+description: "Step-by-step guide on how to immigrate to New Zealand in 2025. Explore PR options, work and study visas, and new pathways like the Digital Nomad Visa and Active Investor Plus."
 date: "2025-04-10"
-tags: ["New Zealand", "PR", "Immigration"]
+tags: ["New Zealand", "PR", "Immigration", "New Zealand immigration 2025", "Move to New Zealand", "New Zealand Work Visa", "Study in New Zealand"]
 author: "Global Visa Team"
 slug: "immigrate-to-new-zealand"
 image: "/images/nz-immigration.jpg"
-category: "Study"
+category: "Immigration"
 excerpt: "Discover the step-by-step guide and new immigration pathways to move to New Zealand in 2025 for a better future."
+location: "Bengaluru, Karnataka, India"
 ---
+
+<!-- Organization Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Global Visa Internationals",
+  "url": "https://www.globalvisa-internationals.com",
+  "logo": "https://www.globalvisa-internationals.com/gvilogo.png",
+  "description": "Global Visa Internationals is a trusted visa and immigration consultancy based in Bengaluru, India, helping individuals and families move to New Zealand, Canada, UK, Australia, and more.",
+  "founder": {
+    "@type": "Person",
+    "name": "Naveen Kumar J"
+  },
+  "foundingDate": "2016",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "MG Road",
+    "addressLocality": "Bengaluru",
+    "addressRegion": "Karnataka",
+    "postalCode": "560025",
+    "addressCountry": "IN"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91-7022213466",
+    "contactType": "Customer Support",
+    "areaServed": "IN",
+    "availableLanguage": ["English", "Hindi", "Kannada", "Tamil"]
+  },
+  "areaServed": ["IN", "NZ", "CA", "UK", "EU", "AU"],
+  "sameAs": [
+    "https://www.facebook.com/globalvisainternationals/",
+    "https://www.instagram.com/globalvisa_internationals/",
+    "https://www.linkedin.com/company/global-visa-internationals/",
+    "https://twitter.com/GlobalVisaIntern",
+    "https://www.youtube.com/@globalVisaInternationals",
+    "https://www.google.com/maps/place/Global+Visa+Internationals/@12.967478,77.6035421,17z"
+  ]
+}
+</script>
 
 ## Introduction
 

@@ -1,13 +1,56 @@
 ---
-title: "From Dreams to Departure: How to Immigrate to New Zealand in 2025"
-slug: "from-dreams-to-departure"
-category: "Work"
-tags: ["New Zealand", "PR", "Immigration"]
-author: "Global Visa Team"
-date: "2025-04-10"
+title: "How to Immigrate to New Zealand in 2025: A Step-by-Step Guide"
+description: "Looking to move to New Zealand in 2025? This step-by-step guide covers everything from eligibility to new visa options like the Digital Nomad Visa and Active Investor Plus. Start your New Zealand immigration journey today."
+keywords: ["How to immigrate to New Zealand", "New Zealand skilled migrant visa", "work visa New Zealand", "New Zealand immigration 2025", "Digital Nomad Visa New Zealand", "move to New Zealand from India"]
+author: "Global Visa Internationals"
+date: 2025-04-23
+url: "/blog/how-to-immigrate-to-new-zealand-2025/"
+author_profile: true
+location: "Bengaluru, Karnataka, India (Serving clients globally)"
 image: "/images/nz-immigration-blog.png"
-excerpt: "A step-by-step guide to immigrating to New Zealand in 2025 for better work opportunities."
+category: "IMMIGRATION"
 ---
+
+<!-- Organization Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Global Visa Internationals",
+  "url": "https://www.globalvisa-internationals.com",
+  "logo": "https://www.globalvisa-internationals.com/gvilogo.png",
+  "description": "Global Visa Internationals offers expert consultancy for immigration, student, and work visas to New Zealand, Canada, the UK, and other global destinations.",
+  "founder": {
+    "@type": "Person",
+    "name": "Naveen Kumar J"
+  },
+  "foundingDate": "2016",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "MG Road",
+    "addressLocality": "Bengaluru",
+    "addressRegion": "Karnataka",
+    "postalCode": "560025",
+    "addressCountry": "IN"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91-7022213466",
+    "contactType": "Customer Support",
+    "areaServed": "IN",
+    "availableLanguage": ["English", "Hindi", "Kannada", "Tamil"]
+  },
+  "areaServed": ["IN", "CA", "UK", "EU", "NZ"],
+  "sameAs": [
+    "https://www.facebook.com/globalvisainternationals/",
+    "https://www.instagram.com/globalvisa_internationals/",
+    "https://www.linkedin.com/company/global-visa-internationals/",
+    "https://twitter.com/GlobalVisaIntern",
+    "https://www.youtube.com/@globalVisaInternationals",
+    "https://www.google.com/maps/place/Global+Visa+Internationals/@12.967478,77.6035421,17z"
+  ]
+}
+</script>
 
 ## Introduction
 

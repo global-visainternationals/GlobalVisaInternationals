@@ -15,8 +15,8 @@ category: "Events"
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Global Visa Internationals",
-  "url": "https://www.globalvisa-internationals.com",
-  "logo": "https://www.globalvisa-internationals.com/gvilogo.png",
+  "url": "https://www.globalvisainternationals.com",
+  "logo": "https://www.globalvisainternationals.com/gvilogo.png",
   "description": "Unlock your entrepreneurial dreams in Canada with the Start-up Visa program. Learn about eligibility, the application process, post-application steps, and essential FAQs. Your journey to Canadian success starts here.",
   "founder": {
     "@type": "Person",

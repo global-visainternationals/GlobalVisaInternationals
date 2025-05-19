@@ -1,12 +1,12 @@
 "use client";
 import Head from 'next/head';
 import Image from "next/image";
-import { motion } from "framer-motion";
 import { useState, useEffect, useRef,useCallback } from "react";
 import styles from "./page.module.css";
 import clsx from "clsx";
-import { useReCaptcha } from 'next-recaptcha-v3';
 import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
+
+import { motion } from 'framer-motion';
 
 
 
@@ -48,6 +48,25 @@ const faqs = [
     answer: 'To apply for an Austrian job seeker visa, you must be a Non-EU citizen, have a recognized higher education degree...',
   },
 ];
+
+const locations = [
+  { name: 'USA', flag: '🇺🇸', top: '30%', left: '15%', link: '/Visa/tourist-visa/usa' },
+  { name: 'Canada', flag: '🇨🇦', top: '15%', left: '15%', link: '/Visa/tourist-visa/canada' },
+  { name: 'UK', flag: '🇬🇧', top: '15%', left: '43%', link: '#uk' },
+  { name: 'Ireland', flag: '🇮🇪', top: '22%', left: '44%', link: '#ireland' },
+  { name: 'Scotland', flag: '🏴', top: '28%', left: '45%', link: '#scotland' }, // St. Andrew’s Cross
+  { name: 'Finland', flag: '🇫🇮', top: '8%', left: '53%', link: '#finland' },
+  { name: 'Sweden', flag: '🇸🇪', top: '13%', left: '55%', link: '#sweden' },
+  { name: 'Germany', flag: '🇩🇪', top: '20%', left: '52%', link: '#germany' },
+  { name: 'Austria', flag: '🇦🇹', top: '25%', left: '54%', link: '#austria' },
+  { name: 'Dubai', flag: '🇦🇪', top: '40%', left: '60%', link: '#dubai' },
+  { name: 'Japan', flag: '🇯🇵', top: '28%', left: '85%', link: '#japan' },
+  { name: 'Singapore', flag: '🇸🇬', top: '55%', left: '75%', link: '#singapore' },
+  { name: 'Australia', flag: '🇦🇺', top: '74%', left: '80%', link: '#australia' },
+  { name: 'Iceland', flag: '🇮🇸', top: '10%', left: '39%', link: '#iceland' },
+  { name: 'Greenland', flag: '🇬🇱', top: '5%', left: '33%', link: '#greenland' },
+];
+
 
 
 
@@ -327,11 +346,11 @@ const visaTypes = [
           {/* Text Section */}
           <div className={styles.textContent}>
             <h2 className={styles.subtitle}>Our Story</h2>
-            <p>We, at <strong>Global Visa Internationals</strong>, are the leading visa consultants in Bangalore, turning your dreams into reality. With over 11+ years of experience in visa consultation services, we have successfully processed more than 55,000+ visas for our clients and provided 75,000+ pieces of advice. Our clients trust us for our expertise in visa and immigration consultation.</p>
+            <p>We at Global Visa Internationals, proud to be India's finest visa consultants, are dedicated to making your dreams into reality. With our 11+ years of experience as leading visa consultants in Bangalore, we have successfully managed to process over 55,000+ visas and offer over 75,000 expert visa advice sessions till date. You can confidently rely on our vast visa and immigration consulting experience in India.</p>
               
-            <p>At our firm, we take pride in providing comprehensive services for a wide range of visa options, including work, study, business, travel, dependent, permanent residency, and assistance with refusals. Our mission is to make the entire process as seamless and stress-free as possible for our clients. Whether you are pursuing career advancement, aiming for quality education, or looking for a new beginning in a foreign land, we are here to offer expert guidance tailored to your unique circumstances and aspirations. Let us help you turn your dreams of international opportunities into reality.</p>
+            <p>We are committed to providing an end-to-end visa solution in India for all categories of different visas, including work visa Bangalore, study visa Bangalore, business visa Bangalore, travel visa Bangalore, dependent visa Bangalore, permanent residency in Bangalore, and refusal assistance Bangalore. We aim to ensure your entire hassle-free visa and trouble-free visa experience in Bangalore. Whether you want to expand your career abroad with our guidance, gain superior education abroad through our expert consultation, or begin a new life abroad with our support, we can guide you through it with superior professional visa advice in sync with your needs in Bangalore. We can help you follow your aspirations abroad from Bangalore.</p>
 
-            <p>At Global Visa Internationals, we prioritize transparency, efficiency, and personalized service in our approach to client relations. This commitment distinguishes us in the visa and immigration sector. Rely on us to navigate the complexities of your visa and immigration process, making it simpler and more accessible. Begin your journey to a world of opportunities with us today!
+            <p>At Global Visa Internationals, we value efficiency in the visa process, transparency in our dealings, and the human touch in our client relationships in the visa and immigration sector in Bangalore. This is what sets us apart as reliable immigration consultants in Bangalore. We handle the complexities of the visa process, so you can have a more convenient and smoother visa experience. Start your journey to a world of opportunities today with the leading visa agency in Bangalore!
             </p>
           </div>
         </section>
@@ -342,34 +361,27 @@ const visaTypes = [
 <section className={styles.whyChooseContainer} id="why-us">
       <h2 className={styles.subtitle}>Why Global Visa Internationals?</h2>
 <ul>
-  <li>11+ Years of Proven Expertise in visa and immigration consultancy services since 2013.</li>
-  <li>75,000+ Clients Assisted across diverse visa categories with high success rates.</li>
-  <li>Thousands of Visa Applications Processed, including:
+  <li>Benefit from 11+ Years of Proven Expertise in visa and immigration consultancy services in Bangalore since 2013.</li>
+  <li>Join our community of 75,000+ Clients Assisted across diverse visa categories with high success rates in their visa applications from Bangalore.</li>
+  <li>We have processed Thousands of Visa Applications, including: 
     <ul>
-      <li>Permanent Residency</li>
-      <li>Work Visas</li>
-      <li>Student Visas</li>
-      <li>Visitor/Tourist Visas</li>
-      <li>Business Visas</li>
-      <li>Skilled Immigration</li>
-      <li>Family/Dependent Visas</li>
+      <li>Permanent Residency </li>
+      <li>Work Visas for various countries from India</li>
+      <li>Student Visas to top global institutions from India</li>
+      <li>Visitor/Tourist Visas from India</li>
+      <li>Business Visas for international travel from India</li>
+      <li>Skilled Immigration pathways from India</li>
+      <li>Family/Dependent Visas to reunite families abroad from India</li>
       and more
     </ul>
   </li>
-  <li>In-depth Knowledge of Global Immigration Laws ensures accurate guidance and faster approvals.</li>
-  <li>Top Destinations Covered: Canada, Australia, UK, USA, Europe, and more.</li>
-  <li>Experienced & Certified Consultants guiding you every step of the way.</li>
-  <li> Personalized Immigration Solutions for individuals, students, professionals, and families.</li>
-  <li>Transparent and Trustworthy Process with complete support from start to finish.</li>
+  <li>Our In-depth Knowledge of Global Immigration Laws ensures accurate guidance and faster visa approvals for our clients in Bangalore.</li>
+  <li>We cover Top Destinations including: Canada visa consultants India, Australia immigration consultants India, UK visa agency India, USA visa services India, Europe visa consultants Bangalore, and more</li>
+  <li>Our Experienced & Certified Consultants are dedicated to guiding you every step of the way in your visa journey from India.
+  </li>
+  <li> We offer Personalized Immigration Solutions for individuals, students, professionals, and families seeking visas from India</li>
+  <li>Experience a Transparent and Trustworthy Process with complete support from start to finish for your visa needs in India.</li>
 </ul>
-      
-      
-     
-      
-      
-                                                                                              
-      
-     
       
     </section>
     <h3 className={styles.subtitle}>Our Impact at a Glance</h3>
@@ -455,12 +467,11 @@ const visaTypes = [
       <img className={styles.custImg} src="/images/target.png" alt="Mission Icon" loading="lazy" />
     </div>
     <p>
-      We at Global Visa Internationals offer top-notch consulting services for both immigration and non-immigration. 
-      Our goal is to make international mobility easier by providing knowledgeable, open, and moral advice on work permits, 
-      visas, study plans, business travel, and relocation.  </p>
+    At Global Visa Internationals, our mission is to simplify and streamline the complex process of international immigration and visa application services. We are committed to delivering clear, ethical, and expert visa consultancy to individuals, families, students, skilled professionals, and business travelers across the globe. </p>
       <p>
-      We guarantee a smooth route for people and companies aiming for global success by putting the needs of our clients first.
+      By combining deep immigration industry experience, personalized attention, and AI-powered visa processing tools, we enable our clients to pursue study abroad opportunities, international employment, business expansion, or personal travel with total confidence..
     </p>
+    <p>Whether it's a tourist visa, student visa, work permit, or permanent residency, we stand by our clients at every stage, offering end-to-end support that transforms dreams into global realities.</p>
   </div>
 
   <div className={styles.visionCard}>
@@ -469,11 +480,9 @@ const visaTypes = [
       <img className={styles.custImg} src="/images/focus.png" alt="Vision Icon" loading="lazy" />
     </div>
     <p>
-      At Global Visa Internationals, we see a world in which ambitions are unabated by boundaries and opportunities are limitless.
-      Being the most reputable immigration consultant by streamlining international mobility in an open and effective manner is our aim.</p>
+    Our vision at Global Visa Internationals is to become the world’s most trusted, innovative, and client-focused immigration consultancy. We believe that the future of immigration lies in breaking barriers and building global bridges—where borders are not obstacles, but gateways to opportunity, growth, and personal transformation.</p>
       <p>
-      We assist individuals, families, and companies in realizing their aspirations of studying, working, and relocating overseas 
-      by providing knowledgeable advice and individualized service.
+      We aim to lead the global immigration industry through a client-centric approach, providing customized, fast, and reliable visa solutions. With a relentless focus on transparency, service excellence, and continuous improvement, we aspire to be the first choice for individuals, families, and enterprises seeking seamless global mobility across all visa categories.
     </p>
   </div>
 
@@ -482,62 +491,40 @@ const visaTypes = [
     <div >
       <img className={styles.custImg} src="/images/global-service.png" alt="Core Values Icon" loading="lazy" />
     </div>
-    <p>
-      At Global Visa Internationals, honesty, openness, and customer-focused service are our guiding principles. 
-      We simplify international travel while upholding a customized, client-focused approach by fusing innovation and experience.</p>
-      <p>
-      To give correct advice, our staff keeps up with changing immigration rules. We effectively reduce procedures to 
-      guarantee a seamless travel experience for you.
+    <p><strong>Transparency :</strong> We provide clear, honest, and straightforward guidance. Our clients are always informed, empowered, and in control of their immigration journey. <br />
+    <strong>Client-First Policy : </strong> 
+    Every client matters. We personalize our services to align with your unique goals, ensuring tailored strategies for maximum success. <br />
+    <strong>Empathy :</strong> Immigration is personal. We understand the emotions and life transitions involved, and support our clients with compassion and care.
+<br />
+    <strong>Accountability</strong>
+    We take full responsibility for every step of the process—your success is our success, and your trust is our highest priority. <br />
+     <strong>Global Perspective</strong>
+    We operate with a global mindset. Our advice is always informed by up-to-date immigration laws, global trends, and local nuances.
     </p>
+    
+    
   </div>
 </section>
 
-{/* Our Visa & Immigration Services */}
-<section id="services">
-        <h2 className={styles.subtitle}>Our Visa & Immigration Services</h2>
+<div className={styles.mapContainer}>
+      <img src="/images/svg/map-img.webp" alt="World Map" className={styles.mapImage} />
 
-        <div className={styles.visaCardContainer}>
-          {visaTypes.map((visa, index) => (
-            <div key={index} className={styles.visaCard}>
-              <div className={styles.visaCardInner}>
-                
-                {/* Front Side */}
-                <div className={styles.visaCardFront}>
-                  <img 
-                    className={styles.responsiveImage} 
-                    src={visa.image} 
-                    loading="lazy"  
-                    alt={`${visa.type} Services`} 
-                  />
-                  <div className={styles.textOverlay}>{visa.type}</div>
-                </div>
+      {locations.map((loc, i) => (
+        <motion.a
+          key={loc.name}
+          href={loc.link}
+          className={styles.pin}
+          style={{ top: loc.top, left: loc.left }}
+          initial={{ opacity: 0, scale: 0 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ delay: i * 0.05 }}
+        >
+          <span className={styles.flag}>{loc.flag}</span>
+          <span className={styles.label}>{loc.name}</span>
+        </motion.a>
+      ))}
+    </div>
 
-                {/* Back Side */}
-                <div className={styles.visaCardBack}>
-                  <strong className={styles.visaType}>{visa.type}</strong>
-                  {visa.comingSoon ? (
-                    <div className={styles.comingSoon}>
-                      <strong>🚧 Coming Soon 🚧</strong>
-                      </div>
-                  ) : (
-                    <ul>
-                      {visa.countries.map((country, i) => (
-                        <li key={i}>
-                          <a href={`/Visa/${visa.type.toLowerCase().replace(/ /g, "-")}/${country}`}>
-                            {country.replace("-", " ").toUpperCase()}
-                          </a>
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
- 
 <h2 className={styles.subtitle}> Contact</h2>
 <section className={styles.dataForm}>
 

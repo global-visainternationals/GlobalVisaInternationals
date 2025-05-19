@@ -15,7 +15,7 @@
     "axios": "^1.8.4",
     "clsx": "^2.1.1",
     "formidable": "^3.5.2",
-    "framer-motion": "^12.6.3",
+    "framer-motion": "^12.12.1",
     "gray-matter": "^4.0.3",
     "next": "^15.3.0",
     "next-recaptcha-v3": "^1.5.2",

@@ -408,7 +408,7 @@
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
-  padding: 20px;
+  padding: 10px;
   background-color: #fff;
 }
 
@@ -416,8 +416,8 @@
 .visionCard,
 .valuesCard {
   width: 350px;
-  height: 400px;
-  padding: 20px;
+  height: 550px;
+  padding: 10px;
   background: #ffffff;
   border-radius: 10px;
   text-align: center;
@@ -430,9 +430,8 @@
 }
 
 .custImg {
-  width: 60px;
-  height: 60px;
-  margin: 10px 0;
+  width: 40px;
+  height: 40px;
 }
 
 .missionCard h2,
@@ -467,7 +466,7 @@
   .missionVisionValues {
     flex-direction: column;
     align-items: center;
-    padding: 20px 10px;
+    padding: 10px 10px;
   }
 
   .missionCard,
@@ -475,12 +474,12 @@
   .valuesCard {
     width: 90%;
     height: auto;
-    padding: 15px;
+    padding: 10px;
   }
 
   .custImg {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
   }
 
   .missionCard h2,
@@ -497,6 +496,55 @@
     font-size: 13px;
   }
 }
+/* new services style */
+.mapContainer {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.mapImage {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.pin {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transform: translate(-50%, -50%);
+  transition: transform 0.2s ease;
+}
+
+.pin:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+  z-index: 5;
+}
+
+.flag {
+  font-size: 1.5rem;
+  background: white;
+  border-radius: 50%;
+  padding: 0.3rem;
+  border: 2px solid #ccc;
+  margin-right: 0.3rem;
+}
+
+.label {
+  background: white;
+  padding: 0.2rem 0.6rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+
+
+
 /* Container for all cards */
 .visaCardContainer {
   display: flex;
@@ -820,7 +868,7 @@
 .faqItem {
   margin-bottom: 8px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px #2c2b2b;
+  box-shadow: 0 4px 8px #3a3737;
   overflow: hidden;
   transition: box-shadow 0.3s ease;
 }
@@ -905,13 +953,12 @@
   }
 
   .faqQuestion {
-    font-size: 18px;
-    
+    font-size: 15px;
     text-align: left;
   }
 
   .faqAnswer {
-    font-size: 16px;
+    font-size: 15px;
     padding: 10px;
     background: #fff;
   }

@@ -75,11 +75,13 @@ export default function About() {
              <section className={styles.storyContainer}>
           <div className={styles.textContent}>
             
-            <p className={styles.story}>At <strong>Global Visa Internationals,</strong> we specialize in simplifying the complex world of global mobility. Founded by <strong>Mrs. Anusha Prashanth,</strong> a dynamic leader with over a decade of hands-on experience in immigration and visa consultancy, we’ve proudly helped over <strong> 55,000+</strong> individuals secure their visas and advised more than <strong>75,000+ </strong>clients worldwide.</p>
-            <p className={styles.story}>With offices in <strong>Bangalore, India</strong>, and <strong>London, UK,</strong> we bring a global perspective and local expertise to every case we handle. Whether you're planning to study abroad, explore work opportunities, or reunite with family, we provide customized visa solutions tailored to your goals.</p>
+            <p className={styles.story}>It is our mission at Global Visa Internationals to simplify the complex business of global mobility. Founded by visionary leader Mrs. Anusha Prashanth, a seasoned professional with more than a decade's experience in immigration and visa consultancy, we have happily helped over 55,000+ people secure their visas and advised more than 75,000+ clients worldwide seeking global mobility solutions.</p>
+            <p className={styles.story}>With offices in London, UK, providing UK visa services, and Bangalore, India, offering premier India visa consultancy, we provide a global perspective and local expertise to every case we handle. Whether you want to study abroad with our study visa assistance, seek work opportunities through our work visa and permits guidance, or reunite with family via our family visa services, we provide customized visa solutions to meet your goals for international relocation.</p>
+
             <h2>Meet the Visionary Behind Our Success</h2>
-            <p className={styles.story}><strong>Mrs. Anusha Prashanth,</strong> the founder and driving force behind Global Visa Internationals, is known for her commitment to <strong>transparency, innovation,</strong> and <strong>client-first service.</strong> Her in-depth knowledge and global outlook have made Global Visa Internationals a trusted name in the immigration consultancy space.</p>
-            <p className={styles.story}>She leads a team of experienced professionals dedicated to delivering seamless visa processing and strategic immigration advice—making your overseas journey smooth and successful.</p>
+            <p className={styles.story}>Mrs. Anusha Prashanth, founder and driving force of Global Visa Internationals, is renowned for her single-minded dedication to transparency in visa processing, innovation in immigration solutions, and client-centricity. Her deep-seated knowledge of global immigration laws and international outlook have made Global Visa Internationals a leading name in the field of immigration consultancy.
+</p>
+            <p className={styles.story}>She leads a team of efficient visa professionals dedicated to delivering hassle-free visa processing and professional immigration guidance, making your international journey seamless and successful.</p>
           </div>
 
 
@@ -102,37 +104,53 @@ export default function About() {
 
     <section className={styles.whydata}>
         <h2 className={styles.subTitle}>Why Trust Global Visa Internationals for Your Immigration Needs?</h2>
-        <p>Migrating to a new country is a life-changing journey that requires expert guidance and precise execution. At Global Visa Internationals, we specialize in providing transparent, reliable, and personalized visa solutions to help individuals and businesses navigate complex immigration procedures with ease.</p>
-        <p>Migrating to a new country is a life-changing journey that requires expert guidance and precise execution. At Global Visa Internationals, we specialize in providing transparent, reliable, and personalized visa solutions to help individuals and businesses navigate complex immigration procedures with ease.</p>
-        <h3>Our Key Strengths</h3>
+        <p>Trust is more than a word at Global Visa Internationals—it's the cornerstone of all our services. With more than a decade of experience in the immigration industry and thousands of successful client experiences, we are a name that stands for reliability in visa services, integrity in immigration consulting, and positive results in visa outcomes. Here's why people, families, and professionals worldwide select us for their immigration needs:</p>
         <ul>
-          <li><strong>✔️ Comprehensive Visa Services –</strong> Work, Study, Business, Dependent, Tourist, and PR visas.</li>
-          <li><strong>✔️ Proven Track Record –</strong> High visa approval rates with a meticulous, success-driven approach.</li>
-          <li><strong>✔️ End-to-End Support –</strong> From document preparation to visa approvals and post-landing services.</li>
-          <li><strong>✔️ Expert Consultation –</strong> Personalized guidance based on individual eligibility and goals.</li>
-          <li><strong>✔️ Mock Interview Preparation –</strong> Intensive coaching to maximize visa interview success.</li>
-          <li><strong>✔️ Refusal Case Assistance –</strong> Strong case analysis and effective reapplication strategies.</li>
+          <li><strong>Demonstrated Track Record: </strong> We have been able to represent more than 75,000+ clients across different visa categories—starting from visitor visas and student visas to work permits, dependent visas, and visa refusal cases. Our high visa success rate speaks volumes about our thorough understanding of immigration laws, visa documentation, and immigration procedures.</li>
+          <li><strong>Expert Guidance, Every Step of the Way :</strong>  Our experienced immigration consultants provide transparent visa guidance, honest immigration advice, and customized visa strategies designed to meet your individual objectives and immigration journey. Whether you are a visa newbie or an experienced international traveler, we ensure that you are well-informed throughout the visa application process.</li>
+          <li> <strong>ransparency and Ethical Behavior :</strong>  We operate with transparency in all our visa dealings and uphold ethical behavior in immigration consultancy. No bait-and-switch pricing, no misleading information about our capabilities. Just honest advice, proper case analysis, and total openness—because your trust is paramount to us as your trusted visa consultants.</li>
+          <li><strong>End-to-End Support :</strong> From document authentication and visa application preparation to interview scheduling and post-approval counseling, we handle everything—so you can focus on your future while we manage the complete visa process.</li>
+          <li><strong>Global Reach, Local Insight:</strong>  Global Reach, Local Insight: Headquartered in India (Bangalore) and London, UK, we provide international standards in visa services combined with local insight, offering the perfect combination of global reach and local touch in immigration assistance.</li>
+          
         </ul>
-      <h3>What Sets Us Apart?</h3>
-      <ul>
-      Why Choose Us?
-<li>✨ <strong>Comprehensive Immigration Services –</strong> We assist skilled professionals, entrepreneurs, business investors, and self-employed individuals in securing the right visa for their needs.</li>
+       <h3>Our Key Strengths</h3>
+        <strong>What Makes Global Visa Internationals Unique</strong>?
+<p>At Global Visa Internationals, we do not just file applications; we create positive immigration experiences, build client trust, and transform lives through successful visa outcomes. Here's what truly sets us apart in the world of visa and immigration consultancy:</p>
 
-<li>✨ <strong>Expanding Beyond Popular Destinations –</strong> In addition to Canada, Australia, the UK, and the USA, we support immigration to fast-growing destinations like Hungary, Denmark, Lithuania, and Latvia.</li>
+<strong> Industry Experience of 11+ Years</strong>
+<p> Having spent over a decade in the immigration services sector, we’ve gained in-depth knowledge of the detailed immigration policies and procedures of multiple countries around the world</p>
 
-<li>✨ <strong>Beyond Paperwork – Full-Service Consultancy –</strong> We provide more than just document processing. Our team offers strategic immigration advice and collaborates with licensed representatives for Canada and other destinations to ensure smooth applications.</li>
+<strong> Brilliant Visa Success Ratio</strong>
+<p>Our right visa strategy, meticulous visa documentation, and expert case handling contribute to our exceptional visa approval rate across all visa categories—making us a top choice for visa success.</p>
 
-<li>✨ <strong>Business & Investor Visa Programs </strong>– We guide business professionals through investment-based immigration pathways, including Provincial Nominee Programs (PNPs) for Canada and Australia, Singapore’s EntrePass, and European residency programs like Lithuanian and Latvian Temporary Residence Permits (TRP).</li>
+<strong> True and Honest Approach</strong>
+<p> We operate with complete honesty and transparency in our immigration services. No unrealistic promises—just clear, accurate, and reliable guidance based on real eligibility and potential outcomes in your visa application.</p>
 
-<li>✨ <strong>Expertise in Skilled Migration </strong>– Our specialists offer tailored guidance for skilled worker programs, including Canada’s Express Entry System, Australia’s General Skilled Migration (GSM) Program, and other country-specific work permits.</li>
+<strong> Personalized Consultancy</strong>
+<p>Recognizing that no two immigration cases are alike, each dedicated case advisor crafts a personalized immigration strategy tailored to every client's unique profile, purpose of travel/relocation, and destination country.</p>
 
-<li>✨ <strong>Precise, Country-Specific Documentation Support –</strong> Every case is unique. Our experts ensure accurate and compliant documentation for each application.</li>
+<strong> Global Network, Local Expertise</strong>
+<p>With company-owned offices in India (Bangalore) and London, we blend international immigration insight with regional understanding to deliver exceptional visa and immigration service worldwide.</p>
 
-<li>✨<strong> Regulatory Compliance & Legal Expertise –</strong> We stay up to date with global immigration policies to ensure visa applications meet the latest legal standards.</li>
+<strong>End-to-End Process Handling</strong>
+<p>End-to-End Process Handling: From initial profile evaluation and thorough documentation assistance to visa filing, interview preparation, and post-visa support—we manage every aspect of the immigration process under one roof.
+</p>
 
-<strong>Start Your Immigration Journey Today!</strong>
-Let Global Visa Internationals help you take the next step toward your dream destination. Contact us for a free consultation.
-      </ul>
+<strong> Inclusive Visa Services</strong>
+We cover all the major visa categories such as:
+<ol>
+  <li>Visitor/Tourist Visa</li>
+  <li>Work Visa & Work Permits</li>
+  <li>Student Visa</li>
+  <li>Business & Investor Visas</li>
+  <li>Dependent/Family Visa</li>
+  <li>Visa Refusals & Appeals</li>
+</ol>
+
+
+
+<strong> Client-Centric Culture </strong>
+<p> We treat every client with the same empathy, commitment, and care as we would our own family. We ensure that your immigration journey will be smooth, stress-free, and ultimately successful with our dedicated support.</p>
       </section>
       <div className={styles.formSection}>
                           <h2>Immigration Inquiry Form</h2>

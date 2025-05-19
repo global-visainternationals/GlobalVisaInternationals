@@ -8,8 +8,8 @@ export default function UK() {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
     "name": "Global Visa Internationals",
-    "url": "https://www.globalvisa-internationals.com",
-    "logo": "https://www.globalvisa-internationals.com/gvilogo.png", 
+    "url": "https://www.globalvisainternationals.com",
+    "logo": "https://www.globalvisainternationals.com/gvilogo.png", 
     "description": "Unlock Your UK Adventure! Global Visa Internationals provides expert guidance for your UK tourist visa application. Simplify the process and explore Britain's wonders. Contact us today!",
     "founder": {
       "@type": "Organization",

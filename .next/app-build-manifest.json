@@ -21,17 +21,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/_not-found/page.js"
-    ],
-    "/Visa/student-visa/australia/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/Visa/student-visa/australia/page.css",
-      "static/chunks/app/Visa/student-visa/australia/page.js"
-    ],
-    "/api/contact/route": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/api/contact/route.js"
     ]
   }
 }

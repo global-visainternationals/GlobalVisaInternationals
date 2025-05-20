@@ -22,7 +22,9 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: x-large;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .page_imageContainer__gQbWL {
@@ -53,7 +55,6 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: large;
   }
 
 
@@ -91,6 +92,9 @@
   text-align: justify;
   padding: 20px;
   gap: 20px;
+  font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 /* Image Styling */
@@ -122,20 +126,28 @@
   color: #444;
   line-height: 1.5;
   padding: 10px;
+  font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .page_textContent__l4FAI h2 {
   font-size: 24px;
   text-align: center;
   color: #277a00;
+  font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.5;
 }
 
 /* Why Choose Section */
 .page_whyChooseContainer__aQLQQ {
-  text-align: center;
+  text-align: left;
   padding: 10px;
   max-width: 1100px;
   margin: auto;
+  font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .page_whyChooseContainer__aQLQQ h2 {
@@ -177,6 +189,7 @@
   }
 
   .page_whyChooseContainer__aQLQQ {
+    text-align: left;
     padding: 10px;
   }
 
@@ -186,7 +199,6 @@
   }
 
   .page_whyChooseContainer__aQLQQ h2 {
-    font-size: 20px;
     margin: 10px 0;
   }
 }
@@ -244,88 +256,57 @@
   }
 }
 
-/* General Review Card */
-/* General Container Styles */
-.page_clientReview__0_VnH {
-  width: 320px;
-  overflow: hidden;
-  white-space: normal;
-  height: 250px;
-  border-radius: 10px;
-  padding: 25px;
-  font-size: small; 
-  text-align: justify;
-  flex: 0 0 auto;
-}
-
-.page_clientReview__0_VnH img {
-  width: 80px;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-}
-
-.page_clientReviewsContainer___IsRK, .page_videoContainer__dDrrq {
+.page_videoContainer__dDrrq {
   overflow: hidden;
   padding: 20px;
-  border-radius: 10px; 
+  border-radius: 10px;
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content:left; 
   margin: 20px auto;
 }
 
-.page_clientReviewsContainer___IsRK:hover .page_carouselTrack__T1zAl,
+.page_videoCarousel__YWCit {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.page_carouselTrack__T1zAl {
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  gap: 20px;
+  animation: page_scrollLoop__QEey9 30s linear infinite;
+}
+
+.page_videoTestimonial__YU_L6 video {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
 .page_videoContainer__dDrrq:hover .page_carouselTrack__T1zAl {
   animation-play-state: paused;
 }
 
-/* Carousel Wrapper */
-.page_reviewCarousel__fID7Q, .page_videoCarousel__YWCit {
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-  white-space: nowrap;
- 
-}
-
-/* Carousel Track */
-.page_carouselTrack__T1zAl {
-  display: flex;
-  width: max-content;
-  gap: 20px; /* Adds spacing between the reviews */
-  animation: page_scrollLoop__QEey9 10s linear infinite;
-  animation: page_scrollLoop__QEey9 10s linear infinite;
-}
-
-
-/* Video Testimonials */
-.page_videoTestimonial__YU_L6 video {
-  width: 300px;
-  height: 200px;
-  /* border: 2px solid #2f3131; */
-  border-radius: 10px;
-}
-
-
-/* Smooth Infinite Scrolling Animation */
+/* Smooth infinite loop animation */
 @keyframes page_scrollLoop__QEey9 {
-  from { transform: translateX(0); }
-  to { transform: translateX(-20%); } /* Moves exactly half the duplicated content */
-}
-@media (max-width: 768px) {
-  .page_clientReview__0_VnH {
-      width: 220px;
-      height: 300px;
-      padding: 10px;
-      font-size: medium; 
+  0% {
+    transform: translateX(0);
   }
-  .page_clientReview__0_VnH img {
-  width: 50px;
-  border-radius: 50%;
+  100% {
+    transform: translateX(-50%);
+  }
 }
+
+/* Responsive Tweak */
+@media (max-width: 768px) {
+  .page_videoTestimonial__YU_L6 video {
+    width: 240px;
+    height: 160px;
+  }
 }
+
 /* Gallery Carousel */
 .page_galleryCarouselWrapper__OFMGv {
   width: 100%;
@@ -433,7 +414,7 @@
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
-  padding: 20px;
+  padding: 10px;
   background-color: #fff;
 }
 
@@ -441,8 +422,8 @@
 .page_visionCard__gi1_9,
 .page_valuesCard__XNZ4L {
   width: 350px;
-  height: 400px;
-  padding: 20px;
+  height: 550px;
+  padding: 10px;
   background: #ffffff;
   border-radius: 10px;
   text-align: center;
@@ -455,9 +436,8 @@
 }
 
 .page_custImg__zbBYv {
-  width: 60px;
-  height: 60px;
-  margin: 10px 0;
+  width: 40px;
+  height: 40px;
 }
 
 .page_missionCard__b0PGb h2,
@@ -476,6 +456,7 @@
   line-height: 1.5;
   font-weight: 500;
   text-align: justify;
+  font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   margin-top: 10px;
   padding: 5px 10px;
 }
@@ -491,7 +472,7 @@
   .page_missionVisionValues__7_yCC {
     flex-direction: column;
     align-items: center;
-    padding: 20px 10px;
+    padding: 10px 10px;
   }
 
   .page_missionCard__b0PGb,
@@ -499,18 +480,20 @@
   .page_valuesCard__XNZ4L {
     width: 90%;
     height: auto;
-    padding: 15px;
+    padding: 10px;
   }
 
   .page_custImg__zbBYv {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
   }
 
   .page_missionCard__b0PGb h2,
   .page_visionCard__gi1_9 h2,
   .page_valuesCard__XNZ4L h2 {
     font-size: 20px;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
   }
 
   .page_missionCard__b0PGb p,
@@ -519,6 +502,55 @@
     font-size: 13px;
   }
 }
+/* new services style */
+.page_mapContainer__fQ84Y {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.page_mapImage__MuquW {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.page_pin__2PoOX {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transform: translate(-50%, -50%);
+  transition: transform 0.2s ease;
+}
+
+.page_pin__2PoOX:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+  z-index: 5;
+}
+
+.page_flag__WAtrE {
+  font-size: 1.5rem;
+  background: white;
+  border-radius: 50%;
+  padding: 0.3rem;
+  border: 2px solid #ccc;
+  margin-right: 0.3rem;
+}
+
+.page_label__2GA72 {
+  background: white;
+  padding: 0.2rem 0.6rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+
+
+
 /* Container for all cards */
 .page_visaCardContainer__hVWP1 {
   display: flex;
@@ -844,7 +876,7 @@
 .page_faqItem__ZM3hV {
   margin-bottom: 8px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px #2c2b2b;
+  box-shadow: 0 4px 8px #3a3737;
   overflow: hidden;
   transition: box-shadow 0.3s ease;
 }
@@ -929,13 +961,12 @@
   }
 
   .page_faqQuestion__21phv {
-    font-size: 18px;
-    
+    font-size: 15px;
     text-align: left;
   }
 
   .page_faqAnswer__TQMcb {
-    font-size: 16px;
+    font-size: 15px;
     padding: 10px;
     background: #fff;
   }
@@ -983,6 +1014,5 @@
     max-width: 100%;
     height: 200px;
     border-radius: 15px;
-    box-shadow: 0 4px 8px #000;
   }
 }

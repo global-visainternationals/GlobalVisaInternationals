@@ -1,0 +1,284 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/Visa/student-visa/new-zealand/newzeland.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************/
+.newzeland_imageContainer__r3_mM{
+    display: flex;
+    justify-content: center;
+    padding-top:70px ;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+.newzeland_newzelandImage__Iu4Cn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 15px;
+    padding-top:10px ;
+    margin: 0 auto;
+    height: 300px;
+    width: 850px;
+}
+.newzeland_newzelandSec__ogA6S {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.newzeland_newzelandData__jlkPQ {
+    flex: 1 1; /* Takes available space */
+    min-width: 60%;
+    max-width: 65%;
+    color: #000000;
+    padding: 10px;
+    gap: 10px;
+    overflow-y: auto; /* Enables scrolling */
+}
+.newzeland_Title__2VoJZ{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #177504;
+}
+.newzeland_subTitle__LVX9T{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: #177504;
+}  
+
+.newzeland_formSection1__TWfI7{
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    
+    border-radius: 10px;
+    padding: 15px;
+    height: -moz-fit-content;
+    height: fit-content;
+    
+}
+
+.newzeland_formSection__5U2MQ {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px; 
+    
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 40px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 60px; /* Keeps the form at a fixed position */
+    height: -moz-fit-content;
+    height: fit-content; /* Ensures it doesn’t stretch */
+}
+
+.newzeland_form__JGuOa {
+    display: flex;
+    flex-direction: column;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+}
+.newzeland_row__gugc7{
+  display: flex;
+  justify-content: center;
+ 
+
+}
+.newzeland_row__gugc7 div{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  padding-bottom: 10px;
+}
+.newzeland_input__Biuwn, .newzeland_select__S_ZSb {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  margin: 5px;
+  box-shadow: 0 4px 8px #282828;
+  text-align: left;
+}
+
+
+.newzeland_submittingBtn___PREj {
+  display: block;
+  max-width: 250px;
+  background-color: #277a00;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.3s ease-in-out;
+  margin: 10px auto;
+}
+
+.newzeland_submittingBtn___PREj:hover {
+  background-color: #85da5d
+}
+
+.newzeland_popupOverlay__Zin_U {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.4); /* dim background */
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 9999;
+}
+
+.newzeland_popupContent__z8zVz {
+background: #28a745; /* Bootstrap green */
+color: white;
+padding: 1.5rem 2.5rem;
+border-radius: 12px;
+box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+text-align: center;
+max-width: 420px;
+width: 90%;
+animation: newzeland_fadeIn__hPOYL 0.3s ease-in-out;
+}
+
+.newzeland_popupContent__z8zVz p {
+font-size: 1.2rem;
+margin-bottom: 1rem;
+font-weight: 600;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 0.6rem;
+}
+
+.newzeland_popupContent__z8zVz button {
+background: white;
+color: #28a745;
+border: 2px solid #28a745;
+border-radius: 6px;
+padding: 0.5rem 1.2rem;
+font-weight: bold;
+cursor: pointer;
+transition: background 0.2s ease;
+}
+
+.newzeland_popupContent__z8zVz button:hover {
+background: #e8f5e9;
+}
+
+@keyframes newzeland_fadeIn__hPOYL {
+from {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+to {
+  opacity: 1;
+  transform: translateY(0);
+}
+}
+
+/* .container {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    color: #333;
+  } */
+  
+  .newzeland_heading__0U_aS {
+    color: #1d7e0a;
+    margin-bottom: 1rem;
+  }
+  
+  .newzeland_description__k9aWp {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .newzeland_table__55hFk {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    margin-bottom: 2rem;
+  }
+  
+  .newzeland_table__55hFk th, .newzeland_table__55hFk td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .newzeland_table__55hFk th {
+    background-color: #1d7e0a;
+    color: #fff;
+  }
+  
+  .newzeland_table__55hFk tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .newzeland_note__dnMxy {
+    font-size: 0.95rem;
+    color: #555;
+    background: #eef3f7;
+    padding: 1rem;
+    border-left: 4px solid #1d7e0a;
+  }
+  
+
+@media screen and (max-width: 768px) {
+    .newzeland_imageContainer__r3_mM {
+        justify-content: center;
+        padding-top: 70px;
+        width: 100%;
+    }
+    .newzeland_newzelandImage__Iu4Cn {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+        border-radius: 10px;
+        height: auto;
+        width: 90%; /* Adjusts image width for smaller screens */
+        max-width: 400px; /* Limits max size */
+    }
+    .newzeland_newzelandSec__ogA6S {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        max-width: 100%;
+    }
+    .newzeland_newzelandData__jlkPQ {
+        min-width: 100%;
+        text-align: justify; /* Centers text for better readability */
+        padding: 10px;
+    }
+    .newzeland_formSection__5U2MQ {
+        width: 90%; /* Increases width for mobile */
+        position: relative; /* Prevents overlap */
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+    .newzeland_formSection1__TWfI7 {
+        display: flex;
+        
+        width: 90%; /* Increases width for mobile */
+        position: relative; /* Prevents overlap */
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+}
+

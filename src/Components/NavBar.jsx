@@ -8,12 +8,12 @@ import { FaBars, FaTimes, FaChevronDown } from "react-icons/fa";
 import styles from "./NavBar.module.css";
 
 const NAV_ITEMS = [
-  { title: "Tourist", path: "tourist-visa", countries: ["Canada", "Australia", "USA", "UK", "Europe", "Japan", "Dubai", "New-Zealand", "Singapore"] },
-  { title: "Student", path: "student-visa", countries: ["Canada", "Australia", "USA", "UK", "Europe", "New-Zealand"] },
-  { title: "Business", path: "business", countries: ["Canada", "Australia", "UK", "Europe", "New-Zealand"] },
-  { title: "Permanent Residency", path: "permanent-residency-visa", countries: ["Canada", "Australia"] },
-  { title: "Work", path: "work", countries: ["Canada", "Australia", "UK", "Europe", "New-Zealand"] },
-  { title: "Refusal Visa", path: "refusal-visa", countries: ["Canada", "Australia", "USA", "UK", "Europe", "New-Zealand"] },
+  { title: "TOURIST", path: "tourist-visa", countries: ["Canada", "Australia", "USA", "UK", "Europe", "Japan", "Dubai", "New-Zealand", "Singapore"] },
+  { title: "STUDENT", path: "student-visa", countries: ["Canada", "Australia", "USA", "UK", "Europe", "New-Zealand"] },
+  { title: "BUSINESS", path: "business", countries: ["Canada", "Australia", "UK", "Europe", "New-Zealand"] },
+  { title: "PERMANENT RESIDENCY", path: "permanent-residency-visa", countries: ["Canada", "Australia"] },
+  { title: "WORK", path: "work", countries: ["Canada", "Australia", "UK", "Europe", "New-Zealand"] },
+  { title: "REFUSAL VISA", path: "refusal-visa", countries: ["Canada", "Australia", "USA", "UK", "Europe", "New-Zealand"] },
 ];
 
 const NavBar = () => {
@@ -68,7 +68,7 @@ const NavBar = () => {
 
         {/* Navigation Links */}
         <ul className={clsx(styles.navLinks, { [styles.showMenu]: menuOpen })}>
-          
+
           <li><Link href="/about-us" title="About Us">About</Link></li>
 
           {/* Dropdown Menus */}

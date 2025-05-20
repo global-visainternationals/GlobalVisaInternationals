@@ -1,1 +1,7 @@
-{}
+{
+  "/page": "app/page.js",
+  "/Visa/tourist-visa/singapore/page": "app/Visa/tourist-visa/singapore/page.js",
+  "/Visa/student-visa/canada/page": "app/Visa/student-visa/canada/page.js",
+  "/about-us/page": "app/about-us/page.js",
+  "/Visa/permanent-residency-visa/australia/page": "app/Visa/permanent-residency-visa/australia/page.js"
+}

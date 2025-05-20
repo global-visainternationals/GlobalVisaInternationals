@@ -1,0 +1,297 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/Visa/student-visa/canada/Canada.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************/
+.Canada_imageContainer__4Ie7c{
+    display: flex;
+    justify-content: center;
+    padding-top:70px ;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+.Canada_CanadaImage__zSQ9D{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 15px;
+    padding-top:10px ;
+    margin: 0 auto;
+    height: 300px;
+    width: 850px;
+}
+.Canada_CanadaSec__mbURO {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.Canada_CanadaData__aceBq {
+    flex: 1 1; /* Takes available space */
+    min-width: 60%;
+    max-width: 65%;
+    color: #000000;
+    padding: 10px;
+    gap: 10px;
+    overflow-y: auto; /* Enables scrolling */
+}
+.Canada_Title__fyW9k{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #1d7e0a;
+}
+.Canada_subTitle__udPnW{
+    display: flex;
+    text-align: left;
+    color: #1d7e0a;
+}
+.Canada_formSection1__Ym_Fo{
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    
+    border-radius: 10px;
+    padding: 15px;
+    height: -moz-fit-content;
+    height: fit-content;
+    
+}
+
+.Canada_formSection__dRbaH {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px; 
+    
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 40px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 60px; /* Keeps the form at a fixed position */
+    height: -moz-fit-content;
+    height: fit-content; /* Ensures it doesn’t stretch */
+}
+
+.Canada_form__PIJz8 {
+    display: flex;
+    flex-direction: column;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+}
+.Canada_row__wzd5r{
+  display: flex;
+  justify-content: center;
+ 
+
+}
+.Canada_row__wzd5r div{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  padding-bottom: 10px;
+}
+.Canada_input__tSaoz, .Canada_select__Ash98 {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: #a6e988;;
+  font-size: 16px;
+  margin: 5px;
+  box-shadow: 0 4px 8px #282828;
+  text-align: left;
+}
+
+
+.Canada_submittingBtn__YEVnO {
+  display: block;
+  max-width: 250px;
+  background-color: #277a00;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.3s ease-in-out;
+  margin: 10px auto;
+}
+
+.Canada_submittingBtn__YEVnO:hover {
+  background-color: #85da5d
+}
+
+.Canada_popupOverlay__TNO77 {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.4); /* dim background */
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 9999;
+}
+
+.Canada_popupContent__qtCV2 {
+background: #28a745; /* Bootstrap green */
+color: white;
+padding: 1.5rem 2.5rem;
+border-radius: 12px;
+box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+text-align: center;
+max-width: 420px;
+width: 90%;
+animation: Canada_fadeIn__hVuUg 0.3s ease-in-out;
+}
+
+.Canada_popupContent__qtCV2 p {
+font-size: 1.2rem;
+margin-bottom: 1rem;
+font-weight: 600;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 0.6rem;
+}
+
+.Canada_popupContent__qtCV2 button {
+background: white;
+color: #28a745;
+border: 2px solid #28a745;
+border-radius: 6px;
+padding: 0.5rem 1.2rem;
+font-weight: bold;
+cursor: pointer;
+transition: background 0.2s ease;
+}
+
+.Canada_popupContent__qtCV2 button:hover {
+background: #e8f5e9;
+}
+
+@keyframes Canada_fadeIn__hVuUg {
+from {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+to {
+  opacity: 1;
+  transform: translateY(0);
+}
+}
+.Canada_container__AmhRu {
+    padding: 1rem;
+    background-color: #f9f9f9;
+    color: #333;
+    max-width: 960px;
+    margin: auto;
+  }
+  
+  .Canada_heading__7Y_hs {
+    color: #1d7e0a;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .Canada_intro__498cz {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .Canada_table__pXn9q {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+    
+  }
+  
+  .Canada_table__pXn9q th,
+  .Canada_table__pXn9q td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: left;
+    vertical-align: top;
+  }
+  
+  .Canada_table__pXn9q th {
+    background-color: #1d7e0a;
+    color: #fff;
+  }
+  
+  .Canada_table__pXn9q tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .Canada_note__Jumir {
+    font-size: 0.95rem;
+    color: #555;
+    background: #eef3f7;
+    padding: 1rem;
+    border-left: 4px solid #1d7e0a;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+@media screen and (max-width: 768px) {
+    .Canada_imageContainer__4Ie7c {
+        justify-content: center;
+        padding-top: 70px;
+        width: 100%;
+    }
+    .Canada_CanadaImage__zSQ9D {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+        border-radius: 10px;
+        height: auto;
+        width: 90%; /* Adjusts image width for smaller screens */
+        max-width: 400px; /* Limits max size */
+    }
+    .Canada_CanadaSec__mbURO {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        max-width: 100%;
+    }
+    .Canada_CanadaData__aceBq {
+        min-width: 100%;
+        text-align: justify; /* Centers text for better readability */
+        padding: 10px;
+    }
+    .Canada_formSection__dRbaH {
+        width: 90%; /* Increases width for mobile */
+        position: relative; /* Prevents overlap */
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+    .Canada_formSection1__Ym_Fo {
+        display: flex;
+        
+        width: 90%; /* Increases width for mobile */
+        position: relative; /* Prevents overlap */
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+    /* Container for responsive table */
+
+  
+  /* Table styling */
+
+  
+}
+

@@ -1,3 +1,98 @@
 {
-  "pages": {}
+  "pages": {
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
+    ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
+    ],
+    "/Visa/tourist-visa/canada/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/Visa/tourist-visa/canada/page.css",
+      "static/chunks/app/Visa/tourist-visa/canada/page.js"
+    ],
+    "/Visa/student-visa/canada/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/Visa/student-visa/canada/page.css",
+      "static/chunks/app/Visa/student-visa/canada/page.js"
+    ],
+    "/Visa/tourist-visa/australia/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/Visa/tourist-visa/australia/page.css",
+      "static/chunks/app/Visa/tourist-visa/australia/page.js"
+    ],
+    "/Visa/tourist-visa/usa/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/Visa/tourist-visa/usa/page.css",
+      "static/chunks/app/Visa/tourist-visa/usa/page.js"
+    ],
+    "/Visa/student-visa/uk/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/Visa/student-visa/uk/page.css",
+      "static/chunks/app/Visa/student-visa/uk/page.js"
+    ],
+    "/Visa/student-visa/europe/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/Visa/student-visa/europe/page.css",
+      "static/chunks/app/Visa/student-visa/europe/page.js"
+    ],
+    "/Visa/student-visa/new-zealand/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/Visa/student-visa/new-zealand/page.css",
+      "static/chunks/app/Visa/student-visa/new-zealand/page.js"
+    ],
+    "/Visa/tourist-visa/japan/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/Visa/tourist-visa/japan/page.css",
+      "static/chunks/app/Visa/tourist-visa/japan/page.js"
+    ],
+    "/Visa/tourist-visa/dubai/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/Visa/tourist-visa/dubai/page.css",
+      "static/chunks/app/Visa/tourist-visa/dubai/page.js"
+    ],
+    "/Visa/tourist-visa/singapore/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/Visa/tourist-visa/singapore/page.css",
+      "static/chunks/app/Visa/tourist-visa/singapore/page.js"
+    ],
+    "/Visa/permanent-residency-visa/australia/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/Visa/permanent-residency-visa/australia/page.css",
+      "static/chunks/app/Visa/permanent-residency-visa/australia/page.js"
+    ],
+    "/about-us/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/about-us/page.css",
+      "static/chunks/app/about-us/page.js"
+    ]
+  }
 }
